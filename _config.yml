@@ -1,0 +1,21 @@
+# Site settings
+title: UXRIM
+header-img: img/home-bg.jpg
+email: kamlekar.venkatesh@gmail.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://uxrim.com"
+twitter_username: feedmeaddiction
+github_username:  kamlekar
+facebook_username:  
+disqus_shortname: uxrim
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
