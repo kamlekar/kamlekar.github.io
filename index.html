@@ -3,6 +3,7 @@ layout: page
 description: "A place to share my experiences"
 ---
 {% include ads/page-header-ad.html %}
+<hr>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
