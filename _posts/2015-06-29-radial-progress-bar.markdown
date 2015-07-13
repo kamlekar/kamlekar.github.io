@@ -88,7 +88,8 @@ header-img: "img/home-bg.jpg"
 }
 </code></pre>
 <h2 id="jquery">jQuery</h2>
-<pre><code>function progress(value, elem) {
+```javascript
+function progress(value, elem) {
     function transform(v) {
         return {
             'transform': 'rotate(' + v + 'deg)'
@@ -120,7 +121,7 @@ header-img: "img/home-bg.jpg"
 // Mention the percentage here
 // As an example, I mentioned the percentage as 40
 progress(40, '.radial-container');
-</code></pre>
+```
 <p><strong><a href="http://jsfiddle.net/venkateshwar/wmytz6x3/14/">Working Fiddle</a></strong></p>
 
 <p data-height="268" data-theme-id="1592" data-slug-hash="GJGKvy" data-default-tab="result" data-user="Mr_Green" class='codepen'>See the Pen <a href='http://codepen.io/Mr_Green/pen/GJGKvy/'>GJGKvy</a> by venkateshwar (<a href='http://codepen.io/Mr_Green'>@Mr_Green</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
