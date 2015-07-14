@@ -9,6 +9,7 @@ twitter_username: feedmeaddiction
 github_username:  kamlekar
 facebook_username:  
 disqus_shortname: uxrim
+google_analytics: true
 
 # Build settings
 markdown: kramdown
