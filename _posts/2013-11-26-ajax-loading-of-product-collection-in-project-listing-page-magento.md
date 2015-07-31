@@ -85,4 +85,4 @@ $('load-more-products').observe('click', callbackFunc);
 
 </pre>
 <p>Now just hide the default page numbering group of elements using styling properties like <code>display: none;</code></p>
-<p>This worked for me on magento 1.8. I hope this works for you too as I am not doing any big changes here :) </p></p>
+<p>This worked for me on magento 1.8. I hope this works for you too as I am not doing any big changes here :) </p>
