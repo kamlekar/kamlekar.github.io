@@ -3,10 +3,10 @@ layout: post
 title: Social sharing of url using PHP/magento
 date: 2014-02-04 08:53:18.000000000 +05:30
 categories:
-- Articles
+- technical
+tags:
 - magento
 - php
-tags:
 - facebook
 - google plus
 - magento

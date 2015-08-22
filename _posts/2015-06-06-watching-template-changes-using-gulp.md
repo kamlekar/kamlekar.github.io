@@ -3,7 +3,7 @@ layout: post
 title: Watching template changes using Gulp
 date: 2015-06-06 14:03:43.000000000 +05:30
 categories:
-- web
+- technical
 tags:
 - gulp
 - gulpfile.js

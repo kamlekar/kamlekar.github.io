@@ -2,8 +2,14 @@
 layout: post
 title: Rating star implementation using CSS
 date: 2015-05-04 03:40:04.000000000 +05:30
-categories: []
-tags: []
+categories: 
+- technical
+tags: 
+- ratings
+- star
+- css
+- radio
+- buttons
 status: publish
 type: post
 published: true

@@ -3,7 +3,7 @@ layout: post
 title: Small underline on hover
 date: 2013-09-02 03:28:59.000000000 +05:30
 categories:
-- Articles
+- technical
 tags:
 - after pseudo element
 - after pseudo elementafter pseudo elementafter pseudo selectorafter pseudo selectorunderlineunderlinesmallsmallmiddlemiddleon

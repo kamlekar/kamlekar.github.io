@@ -3,7 +3,7 @@ layout: post
 title: Arrow container with shadow and border
 subtitle:   ""
 categories:
-- Technical
+- technical
 tags:
 - css
 - arrow

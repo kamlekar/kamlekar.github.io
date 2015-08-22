@@ -2,7 +2,8 @@
 layout: post
 title: ! 'Are you sure you need "overflow: hidden" here?'
 date: 2014-10-03 08:51:38.000000000 +05:30
-categories: []
+categories: 
+- technical
 tags: []
 status: draft
 type: post

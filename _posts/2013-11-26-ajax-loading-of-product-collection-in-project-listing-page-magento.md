@@ -3,10 +3,9 @@ layout: post
 title: Ajax loading of product collection in product listing page - Magento
 date: 2013-11-26 13:10:31.000000000 +05:30
 categories:
-- Articles
-- example
-- magento
+- technical
 tags:
+- magento
 - ajax
 - load products
 - magento

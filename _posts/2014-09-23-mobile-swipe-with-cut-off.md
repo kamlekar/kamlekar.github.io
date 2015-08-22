@@ -3,8 +3,9 @@ layout: post
 title: Mobile Swipe with cut-off
 date: 2014-09-23 06:26:50.000000000 +05:30
 categories:
-- javascript
+- technical
 tags:
+- javascript
 - jquery
 - jquery-mobile
 - swipe

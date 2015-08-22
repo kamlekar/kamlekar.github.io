@@ -3,7 +3,7 @@ layout: post
 title: How should I learn a new technology?
 date: 2013-09-03 11:05:03.000000000 +05:30
 categories:
-- tutorials
+- technical
 tags:
 - good tutorial sites
 - new technology

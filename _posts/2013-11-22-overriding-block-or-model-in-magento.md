@@ -3,8 +3,7 @@ layout: post
 title: Overriding Block or Model in magento
 date: 2013-11-22 14:13:24.000000000 +05:30
 categories:
-- Articles
-- magento
+- technical
 tags:
 - block
 - blocks

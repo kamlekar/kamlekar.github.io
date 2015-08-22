@@ -3,11 +3,7 @@ layout: post
 title: Load script files dynamically using JavaScript and then call a callback function.
 date: 2015-06-17 08:17:35.000000000 +05:30
 categories:
-- Articles
-- example
-- javascript
-- tutorials
-- web
+- technical
 tags:
 - dynamic
 - dynamically
@@ -15,6 +11,7 @@ tags:
 - js
 - load
 - script
+- javascript
 - sequence
 status: publish
 type: post

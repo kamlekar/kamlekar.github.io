@@ -3,7 +3,7 @@ layout: post
 title: Showing the ellipsis on left side with trimming the beginning characters
 date: 2013-09-02 03:26:36.000000000 +05:30
 categories:
-- Articles
+- technical
 tags:
 - after
 - before

@@ -3,9 +3,7 @@ layout: post
 title: Different ways of center aligning an element using css
 date: 2015-06-25 10:50:15.000000000 +05:30
 categories:
-- Articles
-- css
-- example
+- technical
 tags:
 - align
 - center

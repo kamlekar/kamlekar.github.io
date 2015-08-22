@@ -3,8 +3,7 @@ layout: post
 title: jQuery UI Slider Example
 date: 2013-02-20 12:21:30.000000000 +05:30
 categories:
-- Articles
-- example
+- technical
 tags:
 - Projects
 - Style

@@ -3,7 +3,7 @@ layout: post
 title: Ellipsis on second line using pure css
 date: 2014-01-06 10:17:57.000000000 +05:30
 categories:
-- example
+- technical
 tags:
 - css
 - ellipsis

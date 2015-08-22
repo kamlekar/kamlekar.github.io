@@ -3,8 +3,7 @@ layout: post
 title: Our country name should be "Bharat" but not "India"
 date: 2015-03-11 21:43:44.000000000 +05:30
 categories:
-- Articles
-- casual
+- leisure
 tags:
 - bharat
 - hindustan

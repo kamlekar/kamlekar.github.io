@@ -3,7 +3,7 @@ layout: post
 title: Table tbody scroll (cross-browser)
 date: 2013-06-17 05:28:39.000000000 +05:30
 categories:
-- example
+- technical
 tags:
 - cross-browser
 - css

@@ -2,8 +2,14 @@
 layout: post
 title: Radial progress bar
 date: 2015-06-29 12:17:19.000000000 +05:30
-categories: []
-tags: []
+categories: 
+- technical
+tags: 
+- css
+- radial
+- percentage
+- pie
+- chart
 status: publish
 type: post
 published: true

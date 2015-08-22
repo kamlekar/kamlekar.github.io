@@ -3,11 +3,7 @@ layout: post
 title: Make elements center align to each other using only css
 date: 2015-05-22 10:39:18.000000000 +05:30
 categories:
-- Articles
-- css
-- example
-- tutorials
-- web
+- technical
 tags:
 - align
 - center

@@ -3,8 +3,7 @@ layout: post
 title: To get the Largest width or height of the given array of elements
 date: 2013-05-18 00:34:40.000000000 +05:30
 categories:
-- Articles
-- javascript
+- technical
 tags:
 - array
 - javascript

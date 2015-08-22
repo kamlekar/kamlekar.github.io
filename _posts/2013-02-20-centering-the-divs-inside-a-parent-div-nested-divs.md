@@ -4,8 +4,7 @@ title: Centering the div's inside a parent div (nested div's)
 subtitle:   ""
 date: 2013-02-20 08:11:44.000000000 +05:30
 categories:
-- Articles
-- example
+- technical
 tags:
 - center
 - centering

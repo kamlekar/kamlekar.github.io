@@ -3,10 +3,10 @@ layout: post
 title: Slimscroll using JavaScript
 date: 2014-12-11 08:02:21.000000000 +05:30
 categories:
-- Articles
-- javascript
+- technical
 tags:
 - css
+- javascript
 - custom scroll
 - javascript
 - scroll

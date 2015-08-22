@@ -2,7 +2,8 @@
 layout: post
 title: Don't you guys have your own culture?
 date: 2015-01-15 00:01:25.000000000 +05:30
-categories: []
+categories: 
+- leisure
 tags: []
 status: draft
 type: post

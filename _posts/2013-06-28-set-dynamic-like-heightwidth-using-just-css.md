@@ -3,7 +3,7 @@ layout: post
 title: Set dynamic like height/width using just css
 date: 2013-06-28 08:14:38.000000000 +05:30
 categories:
-- example
+- technical
 tags:
 - css
 - dynamic

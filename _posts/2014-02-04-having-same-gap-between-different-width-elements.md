@@ -3,8 +3,7 @@ layout: post
 title: Having same gap between different width elements
 date: 2014-02-04 09:16:58.000000000 +05:30
 categories:
-- Articles
-- javascript
+- technical
 tags:
 - different widths
 - javascript

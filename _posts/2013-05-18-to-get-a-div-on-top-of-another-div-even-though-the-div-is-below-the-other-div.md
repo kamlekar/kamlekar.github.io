@@ -4,8 +4,7 @@ title: To get a div on top of another div. Even though the div is below the othe
   div.
 date: 2013-05-18 01:13:22.000000000 +05:30
 categories:
-- Articles
-- javascript
+- technical
 tags:
 - another div
 - css
