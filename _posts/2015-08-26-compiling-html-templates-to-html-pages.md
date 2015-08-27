@@ -59,7 +59,7 @@ Here is an example:
 	<html>
 		{% include "_head.html" %}
 		<body>
-			{% include "_content.html" %}
+			\{% include "_content.html" %}
             {% include "_footer.html" %}
 		</body>
 	</html>
