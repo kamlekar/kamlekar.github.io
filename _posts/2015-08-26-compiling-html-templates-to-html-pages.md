@@ -55,13 +55,12 @@ and later in command prompt:
 Here is an example:
 
     <!-- // Index.html -->
-    <!-- SITE BUG: if you see something like "markdown" in below code, please replace it with "include" -->
 	<!DOCTYPE html>
 	<html>
-		{% markdown "_head.html" %}
+		{% include _head.html %}
 		<body>
-			{% markdown "_content.html" %}
-            		{% markdown "_footer.html" %}
+			{% include _content.html %}
+            		{% include _footer.html %}
 		</body>
 	</html>
 
