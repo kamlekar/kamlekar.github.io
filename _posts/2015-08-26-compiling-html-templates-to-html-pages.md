@@ -55,12 +55,13 @@ and later in command prompt:
 Here is an example:
 
     <!-- // Index.html -->
+    <!-- SITE BUG: Please replace <percentage> with % -->
 	<!DOCTYPE html>
 	<html>
-		{% include _head.html %}
+		{<percentage> include _head.html <percentage>}
 		<body>
-			{% include _content.html %}
-            		{% include _footer.html %}
+			{<percentage> include _content.html <percentage>}
+            		{<percentage> include _footer.html <percentage>}
 		</body>
 	</html>
 
@@ -89,5 +90,7 @@ Which renders to:
 
 ###Disadvantages:
 - Till now, I didn't find any :).
+
+Based on this, I wrote a simple [HTML Skinning Boilerplate](https://github.com/kamlekar/HTML-Skinning-Boilerplate).
 
   [1]: http://mozilla.github.io/nunjucks/
