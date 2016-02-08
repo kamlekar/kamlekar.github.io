@@ -13,7 +13,7 @@ google_analytics: true
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 paginate: 5
 # Use the following plug-ins
