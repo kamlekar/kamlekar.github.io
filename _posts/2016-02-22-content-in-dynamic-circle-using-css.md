@@ -123,6 +123,8 @@ As you can see the result, the content has came in middle of the circle element.
 
 Thats it!! 
 
+Now change the content to see how the element is maintaining the Circle aspect.
+
 Here is the completed codepen:
 
 <p data-height="268" data-theme-id="1592" data-slug-hash="BjgYPQ" data-default-tab="result" data-user="Mr_Green" class='codepen'>See the Pen <a href='http://codepen.io/Mr_Green/pen/BjgYPQ/'>BjgYPQ</a> by venkateshwar (<a href='http://codepen.io/Mr_Green'>@Mr_Green</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
