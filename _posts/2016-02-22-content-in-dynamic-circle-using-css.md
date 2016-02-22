@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content in Dynamic circle using pure CSS
+title: Content in Dynamic circle using CSS
 subtitle:   ""
 date: 2016-02-22 07:59:44.000000000 +05:30
 categories:
