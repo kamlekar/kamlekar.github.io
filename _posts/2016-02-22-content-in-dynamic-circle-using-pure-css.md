@@ -20,11 +20,11 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-###Requirement:
+**Requirement**:
 
 A circle element has some content in it. The content is being added dynamically. Based on the content's size, the circle should increase or decrease.
 
-###Explanation:
+**Explanation**:
 
 For this, we need to consider following things:
 
