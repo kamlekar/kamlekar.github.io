@@ -19,4 +19,5 @@ paginate: 5
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
