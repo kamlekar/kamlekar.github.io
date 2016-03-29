@@ -17,21 +17,21 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-I really like sublime editor but wanted to try atom and know why it is so much popular. While doing coding in atom, I find many things which were not user friendly (_compare to sublime_) like:
+I really like Sublime editor but wanted to try Atom and know why it is so much popular. While doing coding in atom, I find many things which were not user friendly (_compare to sublime_) like:
 
-- no highlight word occurences when a word is selected.
-- By default, everything looked dark. It was hard to see switch through tabs because of light reflection on my mac.
+- No highlight word occurences when a word is selected.
+- By default, everything looked dark. It was hard to see and switching through tabs because of light reflection on my Mac.
 
-But I overcome the above drawbacks by installing plugins (_which were so easy to install_)
+But I overcome the above drawbacks by installing plugins and themes (_which were so easy to install_)
 
-Here are some features which I like in atom:
+Here are some features which I like in Atom:
 
 - open source (_yeah, no more popups to say purchase the license_)
-- apm package manager (_you can install plugins same as npm in command prompt_)
-- monokai theme (`apm install monokai-seti`)
+- `apm` package manager (_you can install plugins same as npm in command prompt_)
+- Monokai theme (`apm install monokai-seti`)
 - [Create your own packages](http://www.sitepoint.com/write-atom-packages-using-vanilla-javascript/)
-- highlight-selected plugin (select all occurrences like in Sublime)
-- inbuilt git commands (for more git commands, install `git-plus`)
+- [Highlight-selected](https://atom.io/packages/highlight-selected) plugin (helps to select all occurrences like in Sublime)
+- Inbuilt git commands (for more git commands, install `git-plus`)
 - Fun plugins ([activate-power-mode](https://atom.io/packages/activate-power-mode))
 
 PS: It seems for every install of new plugin, we need to restart this editor.
