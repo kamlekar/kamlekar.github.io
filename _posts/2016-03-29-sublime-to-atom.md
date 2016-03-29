@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I moved to atom editor from sublime text editor
+title: I moved to Atom editor from Sublime text editor
 subtitle:   ""
 date: 2016-03-29 07:59:44.000000000 +05:30
 categories:
@@ -17,7 +17,7 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-I really like Sublime editor but wanted to try Atom and know why it is so much popular. While doing coding in atom, I find many things which were not user friendly (_compare to sublime_) like:
+I really like [Sublime](https://www.sublimetext.com/) editor but wanted to try [Atom](https://atom.io/) and know why it is so much popular. While doing coding in atom, I find many things which were not user friendly (_compare to sublime_) like:
 
 - No highlight word occurences when a word is selected.
 - By default, everything looked dark. It was hard to see and switching through tabs because of light reflection on my Mac.
