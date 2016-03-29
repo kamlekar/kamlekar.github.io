@@ -34,7 +34,7 @@ I am just noting down here the plugins/libraries which I think are the most requ
 	- Editable dropdown
 	- Suggesting dropdown
 	- Normal dropdown
-- Promises (_for calling functions after completion of asynchronous calls, ['blue bird'](https://github.com/petkaantonov/bluebird) handles this better_)
+- Promises (_for calling functions after completion of asynchronous calls, [Bluebird](https://github.com/petkaantonov/bluebird) handles this better_)
 - Task runner (_I prefer [gulp](http://gulpjs.com/)_)
 - Template engine (_There are many, I prefer [marko](https://github.com/marko-js/marko)_)
 - Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/)_)
