@@ -18,7 +18,9 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-I am just noting down here the plugins/libraries which I think are the most required ones while developing any UI project.
+Recently, I read this [article](http://www.catonmat.net/blog/frameworks-dont-make-sense/) which stated that Frameworks are huge anti-pattern in Software Development. Most of the cases for any project, we don't require frameworks, we just require some functionalities from those frameworks. 
+
+I agreed with the author and thought to note down the libraries/plugins which I think require most while developing any UI project, considering not depending on any Framework. Here are those things:
 
 - Module loader (_[Webpack](https://webpack.github.io/) handles better_)
 - Validations
@@ -37,4 +39,4 @@ I am just noting down here the plugins/libraries which I think are the most requ
 - Promises (_for calling functions after completion of asynchronous calls, [Bluebird](https://github.com/petkaantonov/bluebird) handles this better_)
 - Task runner (_I prefer [gulp](http://gulpjs.com/)_)
 - Template engine (_There are many, I prefer [marko](https://github.com/marko-js/marko)_)
-- Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/)_)
+- Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/)_). You can also consider image preloading which doesn't require any library.
