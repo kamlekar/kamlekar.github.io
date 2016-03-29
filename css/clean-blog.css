@@ -21,6 +21,8 @@ h6 {
 }
 a {
   color: #404040;
+  border-bottom: 1px solid currentColor;
+  text-decoration: none !important;
 }
 a:hover,
 a:focus {
