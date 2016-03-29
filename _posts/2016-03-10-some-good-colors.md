@@ -28,6 +28,7 @@ Here are some good predefined color names which you can use while creating a fid
 		<tr><td>tan</td><td style='background:tan;'></td></tr>
 		<tr><td>teal</td><td style='background:teal;'></td></tr>
 		<tr><td>steelblue</td><td style='background:steelblue;'></td></tr>
+		<tr><td>lavender</td><td style='background:lavender;'></td></tr>
 		<tr><td>lightseagreen</td><td style='background:lightseagreen;'></td></tr>
 		<tr><td>seagreen</td><td style='background:seagreen;'></td></tr>
 		<tr><td>indianred</td><td style='background:indianred;'></td></tr>
