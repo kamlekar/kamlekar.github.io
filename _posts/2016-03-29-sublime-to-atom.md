@@ -34,4 +34,4 @@ Here are some features which I like in Atom:
 - Inbuilt git commands (for more git commands, install `git-plus`)
 - Fun plugins ([activate-power-mode](https://atom.io/packages/activate-power-mode))
 
-PS: It seems for every install of new plugin, we need to restart this editor.
+
