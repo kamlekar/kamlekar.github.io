@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Main plugins required in a UI Project
+title: Plugins required in a UI Project
 subtitle:   ""
 date: 2016-03-29 07:59:44.000000000 +05:30
 categories:
