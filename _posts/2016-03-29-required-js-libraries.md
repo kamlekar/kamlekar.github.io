@@ -39,4 +39,4 @@ I agreed with the author and thought to note down the libraries/plugins which I 
 - Promises (_for calling functions after completion of asynchronous calls, [Bluebird](https://github.com/petkaantonov/bluebird) handles this better_)
 - Task runner (_I prefer [gulp](http://gulpjs.com/)_)
 - Template engine (_There are many, I prefer [marko](https://github.com/marko-js/marko)_)
-- Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/)_). You can also consider image preloading which doesn't require any library.
+- Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/) and [lazysizes](https://github.com/aFarkas/lazysizes). You can also consider image preloading which doesn't require any library.
