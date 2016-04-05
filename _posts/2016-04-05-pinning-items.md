@@ -34,55 +34,7 @@ I created a sample code using jQuery, but it had some issues. So, I asked a ques
 
 Here is the code:
 
-    function stickItems($parent, itemClass, selectClass) {
-        // Attach dummy element items
-        $parent.prepend('<div class="' + itemClass + ' sticky top"></div>');
-        $parent.append('<div class="' + itemClass + ' sticky bottom"></div>');
-
-        var $items = $('.' + itemClass),
-            $stickyTop = $('.' + itemClass + '.sticky.top'),
-            $stickyBottom = $('.' + itemClass + '.sticky.bottom');
-
-        // Click event registering 
-        $items.click(function (e) {
-            if (!$(e.target).hasClass('sticky')) {
-                $items.removeClass(selectClass);
-                $stickyTop.css('display', 'none');
-                $stickyBottom.css('display', 'none');
-                $(this).addClass(selectClass);
-            }
-        });
-
-
-
-        // Scroll event
-        $parent.scroll(function () {
-            var $self = $(this);
-            var $selected = $('.' + itemClass + '.' + selectClass);
-            var cTop = $selected.offset().top;
-            var pTop = $self.offset().top;
-            var cHeight = $selected.height();
-            var pHeight = $self.height();
-            if (cTop - pTop <= 0) {
-                $stickyTop.html($selected.html()).css({
-                    'display': 'block',
-                        'top': $(this).scrollTop()
-                });
-                $stickyBottom.css('display', 'none');
-            } else if (cTop > pTop && cTop < pTop + pHeight) {
-                $stickyTop.css('display', 'none');
-                $stickyBottom.css('display', 'none');
-            } else {
-                $stickyTop.css('display', 'none');
-                $stickyBottom.html($selected.html()).css({
-                    'display': 'block',
-                        'bottom': -$(this).scrollTop()
-                });
-            }
-        });
-    }
-
-    stickItems($('.parent'), 'item', 'select');
+<script src="https://gist.github.com/kamlekar/06af2f4cc2f82d02d99e2a8f3d7f74f3.js"></script>
 
 Happy coding!! :)
 
