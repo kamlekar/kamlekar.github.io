@@ -18,11 +18,11 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-I had a requirement in a project where there adjacent container. The left container has list of items and the right container shows up left container's select item details dynamically through ajax.
+I had a requirement in a project where there are two adjacent containers. The left container has list of items and the right container, shows up left container's selected item details, dynamically through ajax.
 
-This has simple functionality of showing up selected item details in the right container through ajax. I did implemented it. But the problem was when I scroll down the left container (which is holding the items), the selected item was hiding up and hence the context was lost of which item's details are being shown up in the right container.
+This has simple functionality of showing up selected item details in the right container through ajax. I did implemented it. But the problem was when I scroll down the left container (which is holding the items), the selected item was hiding up (_going out of fold_) and hence the context was lost of which item's details are being shown up in the right container.
 
-To fix this, the Interaction designers came up with brilliant idea of pinning up the selected item while the user is scrolling the left container. So, if the user is scrolling the container and the selected item is hiding bottom, then the selected item will be pinned to bottom vice versa.
+To fix this, the Interaction designers came up with brilliant idea of pinning up the selected item when the user is scrolling the left container. So, if the user is scrolling the container and the selected item is hiding in bottom, then the selected item will be pinned to bottom vice versa.
 
 So, the cases I should consider are:
 
