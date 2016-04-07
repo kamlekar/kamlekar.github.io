@@ -28,7 +28,7 @@ Here are some of the mistakes which I spot on "Batman vs Superman: Dawn of Justi
 - When military people decide to blast off Doomsday along with the Superman, according to physics, the blast was meant to push both of them very far away from the Earth. But it doesn't, they stand in the space near to the Earth.
 - Superman gets healed of the damage done by a Nuke but can't get heal by Doomsday's pierce. (_He might have, so I doubt this_)
 
-Apart from of all the mistakes mentioned above, I do enjoyed the movie very much. To pin out some things:
+Apart from the mistakes mentioned above, I do enjoyed the movie very much. To pin out some things:
 
 - Tremendous acting by every actor in the movie.
 - Hats off to Director Zack Snyder who brought us in the DC comic flow from the very start of the Movie.
