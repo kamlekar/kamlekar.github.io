@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: Mistakes spot on movie - Batman vs Superman: Dawn of Justice
+title: Mistakes spot on movie "Batman vs Superman: Dawn of Justice"
 subtitle:   ""
 date: 2016-04-07 07:59:44.000000000 +05:30
 categories:
