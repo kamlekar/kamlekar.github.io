@@ -30,6 +30,6 @@ Here are some of the mistakes which I spot on "Batman vs Superman: Dawn of Justi
 
 Apart from of all the mistakes mentioned above, I do enjoyed the movie very much. To pin out some things:
 
-- Tremendous acting by each character in the movie.
+- Tremendous acting by every actor in the movie.
 - Hats off to Director Zack Snyder who brought us in the DC comic flow from the very start of the Movie.
 - We do love the old (_not too old_) Batman, Christian Bale. But actually, I didn't miss him after seeing this new Batman acted by Ben affleck. He really acted very well, IMO.
