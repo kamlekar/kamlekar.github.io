@@ -18,6 +18,7 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
+
 **Disclaimer**: Spoilers ahead!!
 
 Here are some of the mistakes which I spot on "Batman vs Superman: Dawn of Justice" movie:
