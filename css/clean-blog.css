@@ -396,6 +396,11 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
+.post-content{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+}
+
 .post-content a {
     border-bottom: 1px solid currentColor;
     text-decoration: none;
