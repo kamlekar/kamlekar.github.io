@@ -5,7 +5,7 @@ description: "My Projects"
 header-img: "img/post-bg-01.jpg"
 ---
 
-##Github projects
+## Github projects
 
 - [HTML Skinning Boilerplate]({{ site.url }}/HTML-Skinning-Boilerplate)
 - [Slimscroll plugin]({{ site.url }}/slim-scroll)
