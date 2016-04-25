@@ -20,7 +20,7 @@ header-img: "img/home-bg.jpg"
 
 Recently, I read this [article](http://www.catonmat.net/blog/frameworks-dont-make-sense/) which stated that Frameworks are huge anti-pattern in Software Development. Most of the cases for any project, we don't require frameworks, we just require some functionalities from those frameworks. 
 
-I agreed with the author and thought to note down the libraries/plugins which I think require most while developing any UI project, considering not depending on any Framework. Here are those things:
+I agree with the author and here noting down the libraries/plugins which I think require most while developing any UI project, considering not depending on any Framework. Here are those things:
 
 - Module loader (_Like [Webpack](https://webpack.github.io/)_)
 - Routing library
