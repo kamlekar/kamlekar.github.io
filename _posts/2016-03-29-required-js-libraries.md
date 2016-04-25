@@ -23,12 +23,12 @@ Recently, I read this [article](http://www.catonmat.net/blog/frameworks-dont-mak
 I agreed with the author and thought to note down the libraries/plugins which I think require most while developing any UI project, considering not depending on any Framework. Here are those things:
 
 - Module loader (_Like [Webpack](https://webpack.github.io/)_)
-- UI router
+- Routing library
 - Validations
 	- Field validations
 	- Title validations (_To show all field errors at one place_)
 	- Global validations (_To show success or error messages from server_)
-- API Library (_A small library_)
+- API Library (_A custom library_)
 	- Server API
 	- Local API (_`.json` files, when server api calls are not ready_)
 - Maintaining states (_Like [Redux](https://github.com/reactjs/redux)_)
