@@ -22,7 +22,8 @@ Recently, I read this [article](http://www.catonmat.net/blog/frameworks-dont-mak
 
 I agreed with the author and thought to note down the libraries/plugins which I think require most while developing any UI project, considering not depending on any Framework. Here are those things:
 
-- Module loader (_[Webpack](https://webpack.github.io/) handles better_)
+- Module loader (_Like [Webpack](https://webpack.github.io/)_)
+- UI router
 - Validations
 	- Field validations
 	- Title validations (_To show all field errors at one place_)
@@ -30,13 +31,13 @@ I agreed with the author and thought to note down the libraries/plugins which I 
 - API Library (_A small library_)
 	- Server API
 	- Local API (_`.json` files, when server api calls are not ready_)
-- Maintaining states (_[Redux](https://github.com/reactjs/redux) handles this better, AFAIK_)
+- Maintaining states (_Like [Redux](https://github.com/reactjs/redux)_)
 - Date library (_I prefer creating our own as per when requirements shows up_)
-- Dropdown library (_with all necessary events_)
+- Dropdown library, because default dropdown sucks (_with all necessary events_)
 	- Editable dropdown
 	- Suggesting dropdown
 	- Normal dropdown
-- Promises (_for calling functions after completion of asynchronous calls, [Bluebird](https://github.com/petkaantonov/bluebird) handles this better_)
-- Task runner (_I prefer [gulp](http://gulpjs.com/)_)
-- Template engine (_There are many, I prefer [marko](https://github.com/marko-js/marko)_)
+- Promises (_for calling functions after completion of asynchronous calls, like [Bluebird](https://github.com/petkaantonov/bluebird)_)
+- Task runner (_like [gulp](http://gulpjs.com/)_)
+- Template engine (_There are many, like [nunjucks](https://mozilla.github.io/nunjucks/) or [marko](https://github.com/marko-js/marko)_)
 - Images lazy loading (_[layzr.js](http://callmecavs.com/layzr.js/) and [lazysizes](https://github.com/aFarkas/lazysizes)_). You can also consider image preloading which doesn't require any library.
