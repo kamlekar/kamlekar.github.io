@@ -34,10 +34,9 @@ I agree with the author and here noting down the libraries/plugins which I think
 	- Local API (_`.json` files, when server api calls are not ready_)
 - Maintaining states (_Like [Redux](https://github.com/reactjs/redux)_)
 - Date library (_I prefer creating our own as per when requirements shows up_)
-- Dropdown library, because default dropdown sucks (_with all necessary events_)
-	- Editable dropdown
-	- Suggesting dropdown
-	- Normal dropdown
+- Dropdown library, because default dropdown sucks
+	- Editable dropdown (_shows suggestions while typing_)
+	- Normal dropdown (_shows options when clicked on dropdown icon_)
 - Promises (_for calling functions after completion of asynchronous calls, like [Bluebird](https://github.com/petkaantonov/bluebird)_)
 - Task runner (_like [gulp](http://gulpjs.com/)_)
 - Template engine (_There are many, like [nunjucks](https://mozilla.github.io/nunjucks/) or [marko](https://github.com/marko-js/marko)_)
