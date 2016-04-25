@@ -24,6 +24,7 @@ I agreed with the author and thought to note down the libraries/plugins which I 
 
 - Module loader (_Like [Webpack](https://webpack.github.io/)_)
 - Routing library
+- SVG Spritesheet (_Inline SVG concept_)
 - Validations
 	- Field validations
 	- Title validations (_To show all field errors at one place_)
