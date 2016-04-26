@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
 }
@@ -397,8 +397,10 @@ body {
 }
 
 .post-content{
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
+  /*font-family: 'Lato';*/
+  /*font-weight: 300;*/
+  word-spacing: 0.5em;
+  letter-spacing: 1px;
 }
 
 .post-content a {
