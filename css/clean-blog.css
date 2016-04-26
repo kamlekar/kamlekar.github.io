@@ -399,8 +399,13 @@ body {
 .post-content{
   /*font-family: 'Lato';*/
   /*font-weight: 300;*/
-  word-spacing: 0.5em;
+  word-spacing: 0.2em;
   letter-spacing: 1px;
+}
+
+.gist{
+    letter-spacing: normal;
+    word-spacing: normal;
 }
 
 .post-content a {
