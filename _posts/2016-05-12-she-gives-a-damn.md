@@ -1,3 +1,20 @@
+---
+layout: post
+title: She gives a damn
+subtitle:   ""
+date: 2016-05-12 07:59:44.000000000 +05:30
+categories:
+- journal
+tags:
+- love
+- story
+status: publish
+type: post
+published: true
+author:     "Venkateshwar"
+header-img: "img/home-bg.jpg"
+---
+
 **She** was standing in front of me, across the wide street. I saw her after a long time. Though she is far, I can see that she is seeing me with a smile on her beautiful face. She want to say something to me. ..or maybe that's my hallucination. One part of me says - "Why she is back?" Another part says - "Why she is seeing me?" But most of my part wants to be in that moment forever. I can make our relation go further by proposing her but I am afraid she may get surprised and I might lose her forever. I am dumb to think so, but my heart dominates my brain in this matter.
 
 She is crossing the street to come by my side. suddenly, a SUV came at her side,  screeching its tyres to stop the speed moving hulk at once. Something is happening there. I can see some guys came out of the SUV and started to forcibly move her, to abduct her. A sudden sense in my body, shaking me down from head to toe. I wasn't expecting this on a routine normal day. I don't know what to do, I was feeling helpless. I must do something.. I don't know them, maybe they are from her past. I don't give a damn about them. I must protect her. Everyone was watching the scene as a movie is going on. No one was doing anything. I decided not to be one of those guys. I saw a guy next to me, watching the incident across the street, who might have just came by playing cricket. I snatched bat from his hand to fight against them. I don't know how I can beat those five SUV guys with a bat.. I don't give a damn.. I must do it. I crossed the road quickly and spin my hand in attempt to hit a guy who was forcing her. Before I could hit him, suddenly, I felt a blow on back of my head and I fell on the ground.. a blow which can kill a guy easily.. but not me.. I have to protect her first. I can see they succeed to get her inside the SUV. I can see that.. SUV started moving.. I am still on the ground.. people around us are caring about me but not about the leaving SUV.. I must not give up.. I might lose her forever.. I stood.. staggering like hell. I fell down again.
