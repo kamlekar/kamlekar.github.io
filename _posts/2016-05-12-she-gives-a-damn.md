@@ -8,7 +8,7 @@ categories:
 tags:
 - love
 - story
-status: publish
+
 type: post
 published: false
 author: "Venkateshwar"
