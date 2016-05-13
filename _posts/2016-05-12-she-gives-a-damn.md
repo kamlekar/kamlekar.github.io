@@ -4,7 +4,7 @@ title: She gives a damn
 subtitle:   ""
 date: 2016-05-12 07:59:44.000000000 +05:30
 categories:
-- journal
+- fictional
 tags:
 - love
 - story
