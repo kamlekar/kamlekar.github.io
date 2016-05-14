@@ -27,4 +27,4 @@ I rode the cycle to the old warehouse. I still don't know how can I beat them.. 
 
 I opened my eyes.. I was in ICU. My head and upper body was wrapped with plaster. I could barely move. I saw from the front glassed window that she is talking to the doctor, possibly concerning about me. she cares about me. She saw me that I was conscious and ran towards me, that felt good. She is crying with a smile on her face, I have never seen her like this before. Her eyes were full of water clearly saying that she loves me. She gives a damn about me. Now, I don't give a damn about the things which going to happen next because she is with me now.
 
-> **Author's note**: Thanks for reading this story. This is my first fictional story, I hope you liked it. I was trying to get Sin city like narration. If you have any suggestion/feedback/critic, that will be really helpful.
+> **Author's note**: Thanks for reading this story. This is my first fictional story, I hope you liked it. I was trying to get Sin city like narration. Any suggestion/feedback/critic are heartly welcome.
