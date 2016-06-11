@@ -24,8 +24,10 @@ Here is an example using Lodash templates:
 
 ### textbox.html
 
-    <label class="lbl <%= data.labelClass %> > <%= data.label %> </label>
-    <input type="text" class="field-txt <%= data.fieldClass %>" <%= sb.setTemplate('attributes', data.attributes) %> ></input>
+    <div class="field-section">
+        <label class="lbl <%= data.labelClass %> > <%= data.label %> </label>
+        <input type="text" class="field-txt <%= data.fieldClass %>" <%= sb.setTemplate('attributes', data.attributes) %> ></input>
+    </div>
 
 ### attributes.html
 
@@ -33,7 +35,35 @@ Here is an example using Lodash templates:
         <%= key %>= <%= data.attributes[key] %>
     <% } %>
 
+### form.html
+
+    <form action="submit.php">
+        <%= 
+            sb.setTemplate('textbox', { 
+                labelClass: "lbl--animate", // BEM style
+                label: "Name",
+                fieldClass: "txt--animate",
+                attributes: {
+                    name: "first-name",
+                    id: "txt-name"
+                }
+            })
+        %>
+    </form>
 
 And here is the code, which I used to manage and load these templates dynamically, using requireJS:
 
+### template-loader.js
+
 <script src="https://gist.github.com/kamlekar/7895c3c1b6ba0b778c27d42ee2b4445a.js"></script>
+
+Here is an example on how to use the above code:
+
+### main.js
+
+    // Example to use above module
+    define(['jquery', './template-loader'], function($, templateLoader){
+        templateLoader.loadTemplate('form', function(formContent){
+            $('body').html(_.templateLoader(formContent)()
+        })
+    })
