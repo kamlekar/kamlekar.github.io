@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Async loading of templates
-subtitle:   ""
+subtitle: ""
 date: 2016-06-10 07:59:44.000000000 +05:30
 categories:
 - technical
@@ -34,6 +34,6 @@ Here is an example using Lodash templates:
     <% } %>
 
 
-And here is the code, which I will use to manage and load these templates dynamically:
+And here is the code, which I used to manage and load these templates dynamically, using requireJS:
 
 <script src="https://gist.github.com/kamlekar/7895c3c1b6ba0b778c27d42ee2b4445a.js"></script>
