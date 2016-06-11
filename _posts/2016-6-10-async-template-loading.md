@@ -67,3 +67,7 @@ Here is an example on how to use the above code:
             $('body').html(_.templateLoader(formContent)()
         })
     })
+    
+That's it! I hope it is helpful.
+
+BTW, I created the same as Github repository. Here is the [link](https://github.com/kamlekar/async-template-loader). If you have ideas to make modifications, you are welcome to contribute there :)
