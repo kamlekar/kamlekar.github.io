@@ -70,4 +70,4 @@ Here is an example on how to use the above code:
     
 That's it! I hope it is helpful.
 
-BTW, I created the same as Github repository. Here is the [link](https://github.com/kamlekar/async-template-loader). If you have ideas to make modifications, you are welcome to contribute there :)
+BTW, I created the same as gist on Github. Here is the [link](https://gist.github.com/kamlekar/7895c3c1b6ba0b778c27d42ee2b4445a). If you have ideas to make modifications, you are welcome to contribute there :)
