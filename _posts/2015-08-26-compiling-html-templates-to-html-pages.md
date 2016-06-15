@@ -21,10 +21,10 @@ author:     "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-###Explanation:
+### Explanation:
 Whenever I used to search on google for "pre-compiling templates", I was ending up on sites which were combining all the HTML template files to one single js file. But in my case, I was looking for a way to compile the templates completely on system itself with no support of a "all template compiled js file". (_So, I was looking for a solution which pre-pre-compiles the HTMLs_)
 
-###Solution:
+### Solution:
 I found this awesome template engine, [Nunjucks][1], which lets me compile the HTML templates to Independent HTML pages when used with gulp. 
 
 Check this one, [gulp-nunjucks-render](https://github.com/carlosl/gulp-nunjucks-render). By using this along with gulp, I am able to include section of `.html` files into other `.html` files. Here is the code (_assuming you installed nodejs and gulp_):
@@ -83,12 +83,12 @@ Which renders to:
 		</body>
 	</html>
 
-###Advantages:
+### Advantages:
 - No need of server support to compile the templates.
 - No need to include any js file in index.html.
 - Whenever we do some change in common section, no need to include that section again in every page.
 
-###Disadvantages:
+### Disadvantages:
 - Till now, I didn't find any :).
 
 Based on this, I wrote a simple [HTML Skinning Boilerplate](https://github.com/kamlekar/HTML-Skinning-Boilerplate).
