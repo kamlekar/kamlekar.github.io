@@ -31,6 +31,7 @@ Here are some features which I like in Atom:
 - Monokai theme (`apm install monokai-seti`)
 - [Create your own packages](http://www.sitepoint.com/write-atom-packages-using-vanilla-javascript/)
 - [Highlight-selected](https://atom.io/packages/highlight-selected) plugin (helps to select all occurrences like in Sublime)
+- [Atom-beautify](https://atom.io/packages/atom-beautify) plugin to beautify code (_supports many languages_).
 - Inbuilt git commands (for more git commands, install `git-plus`)
 - Fun plugins ([activate-power-mode](https://atom.io/packages/activate-power-mode))
 
