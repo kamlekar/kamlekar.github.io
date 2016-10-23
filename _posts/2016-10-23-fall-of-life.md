@@ -1,0 +1,20 @@
+---
+layout: post
+title: The fall of life
+subtitle: ""
+date: 2016-10-23 07:36:44.000000000 +05:30
+categories:
+- technical
+tags:
+- fall
+- philosophy
+status: publish
+type: post
+published: true
+author: "Venkateshwar"
+header-img: "img/home-bg.jpg"
+---
+
+I am falling for like forever. There is nothing around me to grab and stop myself. I am alone.. all alone... just falling. I can't see the end where I could hit. It looks like it will take forever to hit the ground. I hope I could have something to see to at least to keep my thinking sane. But there is nothing around me to farthest I can see. I am scared of this fall rather than hitting the ground. I think how I ended up falling like this, I don't remember. Maybe it is my fate. It is not dark around me but complete bright light, The only thing which is visible. It is hitting my eyes, which hurts. I don't want to see it anymore. I keep my eyes close but then I need to keep them open to see whether I can grab something to stop this fall or at least be happy to see the end. I am in dilemma whether to close my eyes or keep them open. If I close my eyes, that means I give up and I don't care about myself from the very next moment. It also means that I could die by hitting ground instantly or if I am super lucky, I will fall on some big puffy cushion. If I chose to keep my eyes open, that means I am trying hard to find something which I could never find. Whatever it might be, keeping my eyes open gives me a hope of minute chance of survival, A sleazy offer to keep me sane.
+
+But closing my eyes gives me memories to replay and trigger emotions. The only thing I can do to forget the fall. It also makes me feel alive and gives a feeling that I am living my life to "full extent". The context "full extent" is always used to compare with something, in this case it is with "The fall".  And even I could fall asleep and live a life in the dream. Dream is not "real" but I could feel it. I feel it as real until I am in it. Same, I feel the fall too as real because I am living in it. what if it isn't real? what if I am dreaming of falling? What if I am in very deep levels of dream which is the actual "fall"? When will I open my eyes and hit the ground called reality?
