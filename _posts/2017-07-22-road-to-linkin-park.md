@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: The Road to Linkin Park
@@ -16,7 +15,7 @@ type: post
 published: true
 author: "Venkateshwar"
 header-img: "img/home-bg.jpg"
----the 
+---
 
 I am a new fan of Linkin Park. Before I didn't listen to their all songs but did listen to songs like "in the end" and "One Step Closer". At that time I wasn't their fan or fan of any other band/singer. I had a bunch or lot of mixed songs from different bands or singers. My taste in music was not organised.
 
