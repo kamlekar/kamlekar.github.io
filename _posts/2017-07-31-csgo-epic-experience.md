@@ -29,4 +29,4 @@ I had no other choice but to try and diffuse the bomb before it explodes. I walk
 
 Anyway, coming back to this epic story, I waited for him to reveal more of him so that I can hit him in one shot. Alas, he did showed himself pointing his awp directly to me. With no losing time, I hit him before he could and he fell on the ground. My teammates woke up from the dead silence screaming, shouting and praising me more than before. I diffused the bomb, we WON!! I could feel the honour and respect in words not only from my team members but from opposition team as well. "One heck of a game", " I am honoured to play with you",  "because of you, I moved to higher rank" ,"You are  not a good man but a great man!!" *My username is GoodMan<sup>1</sup> :)*
 
-> [1] Reference from Marvel's Luke Cage where the super hero can't be shoot down.
+> [1] Reference from Marvel's Luke Cage where the super hero can't be shot down.
