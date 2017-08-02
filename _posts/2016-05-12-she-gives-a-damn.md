@@ -1,4 +1,4 @@
-
+---
 layout: post
 title: She gives a damn
 subtitle:   ""
@@ -13,7 +13,7 @@ type: post
 published: false
 author: "Venkateshwar"
 header-img: "img/home-bg.jpg"
-
+---
 
 **She** is standing in front of me, across the wide street. I saw her after a long time. I had almost consoled my heart to live without her, a crippled life. Though she is far, I can see that she is seeing me with a charismatic smile on her beautiful face. The smile which kills me every time, which has power to teleport me to a world where only she and I are present. She might have realized that I love her. I felt as though she wants to say something. ..or maybe that's my hallucination. One part of me says - "Why is she back?" Another part says - "Why she looking at me?" But most of my parts wants to be in that moment forever. I can make our relation go further by proposing her but I am afraid she may take it as surprise and I might lose her forever. I am dumb to think so, but my heart dominates my brain in this matter. Just her presence Ionizes me.
 
