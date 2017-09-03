@@ -23,7 +23,7 @@ Yesterday, I played CSGO in competitive mode. It was lot of fun. I won like thre
 
 From corridor, hiding, I can't see clearly who is at the other end. They just need to peek a little and kill me. I started bursting my FAMAS rifle at very end from where I am expecting peek. Fortunately for me, they peeked from there and two of them got killed instantly with headshots. My smartness worked or my luck. Whatever it is, now the match turned to 1 vs 1.
 
-<img src="{{ site.baseurl }}/cs-go-mirage-b.jpg"/>
+<img src="/img/cs-go-mirage-b.jpg" />
 
 I can hear my team members screaming with suggestions to what to do. It is clear even my teammates can't suggest a better plan at this state, no one can. I have only one thing to do i.e to secure the bomb and clearly the enemy has two options to either kill me or anyhow pickup the bomb and plant it before the time runs out. I saw that the time is less and planting the bomb at this point is hard but if he kills me, then they will win. So, I ran from there, my teammates started triumphing the obvious victory, praising me in all ways. Suddenly, when the game was about to end in 2 seconds.. Just 2 seconds , the bomb was PLANTED at B. That was a shock for us. we were surprised of the quickness of enemy. Ofcourse, he is the guy with sniper and killed most of my teammates. We again went to sad state of losing this match because we know that the enemy is highly skilled with awp and  is readily scoped, awaiting for me to come at bombsite B and try to diffuse the bomb, so that he can kill me  instantly from the hideous spot which I can't think of. 
 
