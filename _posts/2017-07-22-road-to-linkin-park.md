@@ -17,6 +17,8 @@ author: "Venkateshwar"
 header-img: "img/linkin-park.jpg"
 ---
 
+> Disclaimer:  Regarding the background image on this page. I do not intend to infringe any legitimate intellectual, artistic rights or copyright. If you are the legitimate owner of the displayed wallpaper, and do not want me to show, then please contact me and I will immediately remove the wallpaper 
+
 I am a new fan of Linkin Park. Before I didn't listen to their all songs but did listen to songs like "in the end" and "One Step Closer". At that time I wasn't their fan or fan of any other band/singer. I had a bunch or lot of mixed songs from different bands or singers. My taste in music was not organised.
 
 Few years ago, I formed up enthusiasm towards listening to the albums of popular bands. It all started with "Led Zeppelin". I started listening their greatest hits comprising of 20 songs. Unknowingly, I stopped listening to my mixed song collection and only used to listen/enjoy led Zeppelin. Even today, "the rain song" from their songs is my personal anthem.
