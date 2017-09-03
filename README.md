@@ -1,8 +1,8 @@
-#My Blog (uxrim.com)
+# My Blog (uxrim.com)
 
 Here I will share my experiences related to Web development and my thoughts.
 
-###[Visit site](http://uxrim.com)
+### [Visit site](http://uxrim.com)
 
 To run site on local:
 
