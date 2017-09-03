@@ -27,4 +27,4 @@ I then started listening to Pink Floyd. Another great selection by me which I qu
 
 Unfortunately, chester died and that was a big shock to me. The above content I wrote was before his death and was about to write few suggestions to the band like making a new "collision course" album this time with eminem<sup>1</sup> (that would have been awesome), making animation videos of their songs, doing concert in India. Now these are all just dreams. I felt like someone destroyed my music world, yes I am mad on Chester. This even taught me that "we get things to lose them". 
 
-> [1] There is a huge fan base which wanted Linkin Park feat. Eminem and you can find the similar content on [youtube](https://youtu.be/vpsbgCn1hVI) who try to give us the experience of the collision course and he/she did very well.
+> [1] There is a huge fan base which wanted Linkin Park feat. Eminem and you can find the similar Fan made content on [youtube](https://www.youtube.com/watch?v=6JHmfLHt8Jo) by blazeaudio who try to give us the experience of the collision course and they did very well.
