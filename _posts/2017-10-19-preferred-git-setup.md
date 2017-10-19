@@ -40,7 +40,7 @@ Now, before committing the files inside `wp-content`, we need to make sure we ar
 
 All this setup I am doing so that it would be easier for me to deploy to staging site or live site. Now, the only thing which isn't covered above is Database, which actually keeps on modifying while we are developing. So, I made mandatory in my team to commit the modified SQL<sup>1</sup> file whenever they did changes in `wp-admin` in their local server, under `wp-content/MyTheme/misc/dump.sql`. Now, whenever my team mates commit, I will have track of all the files even including the updated Sql file.
 
-> [1]: If you using XAMPP, then you can visit `localhost/phpmyadmin` and export the database which is connected to this wordpress project.
+> 1: If you using XAMPP, then you can visit `localhost/phpmyadmin` and export the database which is connected to this wordpress project.
 
 For consideration, the local server `dump.sql` file when imported on staging or live site won't work directly because that sql file is registered to local server site url which usually looks like `http://localhost/mytheme`.  So, now this sql file should be re-registered with staging/live site url which can be done either by simple replace with `http://localhost/mytheme` with `http://staging.mystagingurl.com` by editing the sql file in notepad or after importing this sql file in staging/live database running SQL `REPLACE()` function. 
 
