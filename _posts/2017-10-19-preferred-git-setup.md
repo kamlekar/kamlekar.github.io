@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My preferred Git setup in Wordpress
+title: My preferred Git setup for Wordpress project
 subtitle: ""
 date: 2017-10-19 07:59:44.000000000 +05:30
 categories:
@@ -17,9 +17,7 @@ header-img: "img/home-bg.jpg"
 ---
 
 
-# My preferred Git setup in Wordpress
-
-> Disclaimer: This article explains to make the wordpress project deployment on live server using easier using git.
+> Disclaimer: This article explains to make the wordpress project deployment on live server easier using git.
 
 It is kind of hard to decide where to init the git inside the Wordpress project folder.  The usual way to init is the whole Wordpress project folder which I think is not needed because we actually won't change anything outside our `theme/` folder. So, here I am sharing my preferred git setup where I git only those folders which we possibly change.
 
@@ -60,6 +58,8 @@ Explanation to above commands:
 - [`mysqladmin create MyThemeDatabase`]  Creating the new Database.
 - [`mysql MyThemeDatabase < ./dump.sql`] Importing the latest sql dump in the Database.
 - And the last big query with `REPLACE` SQL function is to replace `http://localhost/mytheme` with `http://staging.mystagingurl.com` in the Database. The replace is done under wordpress database tables `wp_options`, `wp_postmeta` and `wp_posts`.
+
+Also, once after the complete deployment, do refresh the permalinks by just visiting `wp-admin -> settings -> permalinks` and click on "Save" button. This will make sure that the new pages are visible. 
 
 Hope this helps. Happy coding :)
 
