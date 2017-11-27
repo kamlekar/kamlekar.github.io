@@ -7,3 +7,9 @@ Here I will share my experiences related to Web development and my thoughts.
 To run site on local:
 
      jekyll serve --watch --force_polling
+
+To Install dependencies:
+
+    gem install github-pages
+
+
