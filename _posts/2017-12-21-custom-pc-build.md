@@ -60,7 +60,7 @@ And when I was browsing through monitors, I came to know that there are two type
 And here is my Custom build's configuration:
 
 | Type | Brand/Model name | Price |
-| ------ | ----- | -----: |
+| ------ | ----- | --------: |
 | 650W SMPS | CORSAIR SMPS VS650 - 650 WATT PSU WITH ACTIVE PFC	CP-9020098-UK |	Rs.4,300 |
 | Cooling system | COOLER MASTER CPU AIR COOLER HYPER 212X	RR-212X-20PM-R1	|	Rs.2,850 |
 | 16GB RAM | CORSAIR DESKTOP RAM VENGEANCE LPX SERIES - 16GB (16GBx1) DDR4 DRAM 3000MHz BLACK (CMK16GX4M1B3000C15)	CMK16GX4M1B3000C15	|	Rs.13,000 |
@@ -68,8 +68,8 @@ And here is my Custom build's configuration:
 | i7-8700k CPU | INTEL PROCESSOR CORE i7-8700K (INTEL 8TH GEN, LGA1151 SOCKET, 12M CACHE, UP TO 4.70 GHz)	i7-8700K	|	Rs.29,600 |
 | Motherboard | GIGABYTE MOTHERBOARD Z370M-D3H (INTEL SOCKET 1151/8TH GENERATION CORE SERIES CPU/MAX 64GB DDR4-4000MHZ MEMORY)	Z370M-D3H	| Rs.11,300 |
 | 1TB HDD | I had spare in my home | |
-| Computer case | Zebronics | Rs. 1500 |
-| UPS | Intex | Rs. 1500 |
+| Computer case | Zebronics | Rs. 1,500 |
+| UPS | Intex | Rs. 1,500 |
 | 29" ultra-wide monitor | LG 21:9 Ultrawide 29UM59 29-inch Monitor (Black) | Rs. 20,995 |
 
 I bought most of the above components from mdcomputers.com where the prices were lower compared to Flipkart and Amazon. Also, the delivery was faster (got in two days!!).
