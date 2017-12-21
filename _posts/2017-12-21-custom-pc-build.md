@@ -70,8 +70,7 @@ And here is my Custom build's configuration:
 | 1TB HDD | I had spare in my home | |
 | Computer case | Zebronics | Rs. 1500 |
 | UPS | Intex | Rs. 1500 |
-| 29" ultra-wide monitor | 
-LG 21:9 Ultrawide 29UM59 29-inch Monitor (Black) | Rs. 20,995 |
+| 29" ultra-wide monitor | LG 21:9 Ultrawide 29UM59 29-inch Monitor (Black) | Rs. 20,995 |
 
 I bought most of the above components from mdcomputers.com where the prices were lower compared to Flipkart and Amazon. Also, the delivery was faster (got in two days!!).
 
