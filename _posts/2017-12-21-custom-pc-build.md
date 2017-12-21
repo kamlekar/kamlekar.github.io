@@ -30,14 +30,14 @@ I was confused whether to buy a laptop (_which comes will all goodies_) or a Cus
 Here is the preface of what I learned. I might have missed many things but at least I hope I covered the fundamentals:
 
 - DDR4
-- ‎M.2
-- ‎SLI motherboards
-- ‎Z series motherboards
-- ‎Processor with suffix "K"
-- ‎Gsync and Free sync monitors
-- ‎SSD, HDD and SSHD
-- ‎Crossfire and SLI
-- ‎Overclocking
+- M.2
+- SLI motherboards
+- Z series motherboards
+- Processor with suffix "K"
+- Gsync and Free sync monitors
+- SSD, HDD and SSHD
+- Crossfire and SLI
+- Overclocking
 
 First or all, we just can't take any motherboard, processor, GPU, cooler, SMPS etc and assemble to form a PC. That would be completely unethical or opposite of wise (stupid?).
 
