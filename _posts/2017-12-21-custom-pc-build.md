@@ -23,9 +23,9 @@ header-img: "img/home-bg.jpg"
 ---
 
 
-I was confused whether to buy a laptop (_which comes will all goodies_) or a Custom PC build (_which is, altogether, an opposite of laptop_). First, I thought to go with a laptop but then decided to make my own budget custom PC build on friend's suggestion. 
+I was confused whether to buy a laptop (_which comes will all goodies_) or a custom PC build (_which is, altogether, an opposite of laptop_). First, I thought to go with a laptop but then decided to make my own budget custom PC build on friend's suggestion. 
 
-> Disclaimer: This article is my experience / journey I went through to create my own Custom PC build. This isn't a Nutshell like article which explains everything instead it just covers things I came to know for my own requirement.
+> Disclaimer: This article is my experience / journey I went through to create my own custom PC build. This isn't a Nutshell like article which explains everything instead it just covers things I came to know for my own requirement.
 
 Here is the preface of what I learned. I might have missed many things but at least, I hope covered the fundamentals:
 
@@ -57,11 +57,11 @@ Now, coming to `M.2`, it is actually the latest way where the data transfer rate
 
 And when I was browsing through monitors, I came to know that there are two types of gaming monitors i.e G-Sync (Nvidia) and FreeSync (AMD). These methods are used to reduce the screen tearing because of higher FPS. I would suggest to read articles to know more about it. At last, one thing I concluded is that G-Sync monitors are too expensive compare to budget monitors which are usually FreeSync. So, decided to go with Freesync monitor.
 
-And here is my Custom build's configuration:
+And here is my custom build's configuration:
 
 | Type | Brand/Model name | Price |
 | ------ | ----- | --------: |
-| 650W SMPS | CORSAIR SMPS VS650 - 650 WATT PSU WITH ACTIVE PFC	CP-9020098-UK |	Rs.4,300 |
+| 650W SMPS  (= switched-mode power supply) | CORSAIR SMPS VS650 - 650 WATT PSU WITH ACTIVE PFC	CP-9020098-UK |	Rs.4,300 |
 | Cooling system | COOLER MASTER CPU AIR COOLER HYPER 212X	RR-212X-20PM-R1	|	Rs.2,850 |
 | 16GB RAM | CORSAIR DESKTOP RAM VENGEANCE LPX SERIES - 16GB (16GBx1) DDR4 DRAM 3000MHz BLACK (CMK16GX4M1B3000C15)	CMK16GX4M1B3000C15	|	Rs.13,000 |
 | GTX 1050ti GPU | ZOTAC GRAPHICS CARD PASCAL SERIES - GTX 1050 TI 4GB GDDR5 (ZT-P10510A-10L)	ZT-P10510A-10L |	Rs.11,500 |
@@ -75,5 +75,5 @@ And here is my Custom build's configuration:
 I bought most of the above components from mdcomputers.com where the prices were lower compared to Flipkart and Amazon. Also, the delivery was fast (got in two days!!).
 
 Things I messed in above configuration are:
-- I didn't go with SLI compatible Motherboard. I came to know about SLI after assembling the components (_I could have still returned the component but opted not to_). Anyway, the motherboard is still compatible with Crossfire.
+- I didn't go with SLI compatible Motherboard. I came to know about SLI after assembling the components (_I could have still returned the component but opted not to_). Anyway, the motherboard is still compatible with Crossfire. (Edit: SLI is actually supported only with few selected GPUs, here is the [list](https://www.geforce.com/hardware/technology/sli/supported-gpus))
 - I should have selected a better cooling system i.e probably a liquid cooling system because the configuration which I bought has a CPU and Motherboard which can be overclocked which means more heat. Although, the existing cooling system is fine if I don't overclock (_which I think I won't for more one year_).
