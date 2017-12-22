@@ -23,7 +23,7 @@ header-img: "img/home-bg.jpg"
 ---
 
 
-I was confused whether to buy a laptop (_which comes will all goodies_) or a Custom PC build (_which is altogether opposite of laptop_). First, I thought to go with laptop but then decided to make my own budgeted custom PC build on friend's suggestion. 
+I was confused whether to buy a laptop (_which comes will all goodies_) or a Custom PC build (_which is, altogether, an opposite of laptop_). First, I thought to go with a laptop but then decided to make my own budgeted custom PC build on friend's suggestion. 
 
 > Disclaimer: This article is my experience / journey I went through to create my own Custom PC build. This isn't a Nutshell like article which explains everything instead it just covers things I came to know for my own requirement.
 
