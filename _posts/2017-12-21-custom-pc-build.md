@@ -25,9 +25,9 @@ header-img: "img/home-bg.jpg"
 
 I was confused whether to buy a laptop (_which comes will all goodies_) or a custom PC build (_which is, altogether, an opposite of laptop_). First, I thought to go with a laptop but then decided to make my own budget custom PC build on friend's suggestion. 
 
-> Disclaimer: This article is my experience / journey I went through to create my own custom PC build. This isn't a Nutshell like article which explains everything instead it just covers things I came to know for my own requirement.
+> Disclaimer: This article is my experience / journey I went through to create my own custom PC build. This isn't a Nutshell like article which explains everything instead it just covers things I came to know from my own requirement.
 
-Here is the preface of what I learned. I might have missed many things but at least, I hope covered the fundamentals:
+Here is the preface of what I learned. I might have missed many things but at least, I hope I covered the fundamentals:
 
 - DDR4
 - M.2
