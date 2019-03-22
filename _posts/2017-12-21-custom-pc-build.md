@@ -55,6 +55,8 @@ Since here I am considering a processor which could be overclocked and also a be
 
 Now, coming to `M.2`, it is actually the latest way where the data transfer rate is faster compare to older methods like `SATA`. Usually, this can be helpful to reduce boot time (~10 sec) of the system. Since, I was fine with higher boot time (i.e around 1 min), I opted not to have `SSD` for now but definitely considered that the Motherboard is `M.2` compatible. There is also Hybrid version of both `SSD` and `HDD` known as `SSHD` where I didn't look much out.
 
+**Edit**: I purchased `Samsung Evo 970 M.2 NVMe 2280` SSD. I opted for this as the benchmarks are really astonishing. The boot time definitely got under 10 secs. Not only just boot time but also starting of apps got faster. You could never go back to exclude SSD once you have it in your life. FYI, the `2280` is series which states something like your Motherboard should be compatible with M.2 NVMe (_check motherboard manual_) and must have a 22 mm width X 80 mm of height slot on motherboard, to keep the SSD. There are other lesser length variants as well. Also, I bought a 4TB HDD (_I listed below_).
+
 And when I was browsing through monitors, I came to know that there are two types of gaming monitors i.e G-Sync (Nvidia) and FreeSync (AMD). These methods are used to reduce the screen tearing because of higher FPS. I would suggest to read articles to know more about it. At last, one thing I concluded is that G-Sync monitors are too expensive compare to budget monitors which are usually FreeSync. So, decided to go with Freesync monitor.
 
 And here is my custom build's configuration:
@@ -67,13 +69,15 @@ And here is my custom build's configuration:
 | GTX 1050ti GPU | ZOTAC GRAPHICS CARD PASCAL SERIES - GTX 1050 TI 4GB GDDR5 (ZT-P10510A-10L)	ZT-P10510A-10L |	Rs.11,500 |
 | i7-8700k CPU | INTEL PROCESSOR CORE i7-8700K (INTEL 8TH GEN, LGA1151 SOCKET, 12M CACHE, UP TO 4.70 GHz)	i7-8700K	|	Rs.29,600 |
 | Motherboard | GIGABYTE MOTHERBOARD Z370M-D3H (INTEL SOCKET 1151/8TH GENERATION CORE SERIES CPU/MAX 64GB DDR4-4000MHZ MEMORY)	Z370M-D3H	| Rs.11,300 |
-| 1TB HDD | I had spare in my home | |
+| 1TB HDD | I had a spare | - |
+| 4TB HDD | Seagate 4TB Barracuda SATA 6Gb/s 256MB Cache Desktop 3.5 Inch Internal Hard Drive | Rs. 8,899 |
 | Computer case | Zebronics | Rs. 1,500 |
 | UPS | Intex | Rs. 1,500 |
 | 29" ultra-wide monitor | LG 21:9 Ultrawide 29UM59 29-inch Monitor (Black) | Rs. 20,995 |
+| SSD | Samsung 970 Evo 500GB NVMe PCIeM.2 2280 SSD | Rs. 11,799 |
 
 I bought most of the above components from mdcomputers.com where the prices were lower compared to Flipkart and Amazon. Also, the delivery was fast (got in two days!!).
 
 Things I messed in above configuration are:
 - I didn't go with SLI compatible Motherboard. I came to know about SLI after assembling the components (_I could have still returned the component but opted not to_). Anyway, the motherboard is still compatible with Crossfire. (Edit: SLI is actually supported only with few selected GPUs, here is the [list](https://www.geforce.com/hardware/technology/sli/supported-gpus))
-- I should have selected a better cooling system i.e probably a liquid cooling system because the configuration which I bought has a CPU and Motherboard which can be overclocked which means more heat. Although, the existing cooling system is fine if I don't overclock (_which I think I won't for more one year_).
+- I should have selected a better cooling system i.e probably a liquid cooling system because the configuration which I bought has a CPU and Motherboard which can be overclocked which means more heat. Although, the existing cooling system is fine if I don't overclock.
