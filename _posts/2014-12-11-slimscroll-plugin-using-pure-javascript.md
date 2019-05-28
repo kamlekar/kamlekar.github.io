@@ -16,7 +16,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 Slim scroll is a replacement of default scrollbar provided by browsers. This plugin lets you design the scroll-bar by using simple css properties. It is created using javascript and css.

@@ -17,7 +17,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>To explain different ways of center aligning an element, I will consider a parent element in which I will center align a child element.</p>
 <h2 id="the-known-old-way">The known old way:</h2>

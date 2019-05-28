@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Recently, I created a radial progress bar with help from <a href="http://stackoverflow.com/users/2606013/harry">Harry</a>. I am sharing the code here. In future, if I get time, I will explain it.</p>
 <h2 id="html">HTML</h2>

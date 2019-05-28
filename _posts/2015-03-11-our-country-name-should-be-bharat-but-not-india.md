@@ -12,7 +12,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>We who ourselves call as "Indians" used to live in a country which had name "Bharat". "Bharat" was named after a great ancestral King.</p>
 <p>The Foreigners and merchants who used to visit "Bharat", started to reference us as "Indians" or "Hindustanis". That somehow made to forget our own original name and call our country as "India" or "Hindustan". The Irony is that even after we got Independence from British, the name "India" was declared as official but not "Bharat". (Wow)</p>

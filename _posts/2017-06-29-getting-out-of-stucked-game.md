@@ -12,7 +12,7 @@ status: publish
 type: post
 published: true
 author: "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 You are playing a high graphic game and because of some reason you switched over to or opened other app. And suddenly you see that the    game got stuck and showing blank screen on top of all other opened apps. If you try to close the game, that doesn't work, no matter whatever you do. Even the task manager opens behind the blank game screen. What to do in that case?

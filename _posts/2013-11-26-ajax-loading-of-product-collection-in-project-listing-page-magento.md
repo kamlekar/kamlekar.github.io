@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Today I got in to a situation where I need to do ajax loading of project collection in product listing page. if we search for the same issue on google then we will get many extensions which are free but they include plugins like <code>infinitescroll.js</code>,  <code>jquery.js</code>, <code>jquery-ui.js</code> etc.. instead of this you can use <code>prototype.js</code> which is available by default in magento. Actually, this task is simple if we understand it.</p>
 <p>By default, Magento shows product listing in page wise format. Each page numbering is a anchor tag with href which loads the complete page with new project listing related to the clicked page number.</p>

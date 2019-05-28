@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Using jQuery, one can fetch particular patterned elements easily.  I mean if someone is in need to select some elements (say, div elements) which have class names similar like classOne, classTwo, classThree etc.,</p>
 <p>All the classes which I mentioned above have in common "class". So, many users think that it might be possible to do regex on those elements and get the required result. But how?</p>

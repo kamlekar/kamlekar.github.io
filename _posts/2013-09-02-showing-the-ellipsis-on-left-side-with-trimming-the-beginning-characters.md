@@ -17,7 +17,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Today, I am going to explain how to show ellipsis on right side of the text and also trimming the beginning part of the text instead of the ending part.<br />
 We know that using <code>text-overflow: ellipsis</code> will show ellipsis on the right side of the text by trimming the ending part of the text which is the default behaviour. The CSS used for this default ellipsis is:</p>

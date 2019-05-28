@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author: "Venkateshwar"
-header-img: "img/linkin-park.jpg"
+header-img: assets/img/linkin-park.jpg"
 ---
 
 > Disclaimer:  Regarding the background image on this page. I do not intend to infringe any legitimate intellectual, artistic rights or copyright. If you are the legitimate owner of the displayed wallpaper, and do not want me to show, then please contact me and I will immediately remove the wallpaper 

@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>If someone is new to any technology then everything looks dim to him/her. Many people don't know where to start. For those people I would like to suggest to go through following steps for understanding slowly. I am not saying that it must be strictly follow. These are the steps which I always follow when learning any new technology.</p>
 <ol>

@@ -15,7 +15,7 @@ status: publish
 type: post
 published: false
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 **Note:** This article is based on Author's personal opinion.
 

@@ -18,7 +18,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <div>Sometimes there will be a need to show a small underline on hover of a element. Well this can be achieved using just css.</div>
 <div></div>

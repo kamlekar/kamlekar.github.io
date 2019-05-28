@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 I had a requirement in a project where there are two adjacent containers. The left container has list of items and the right container, shows up left container's selected item details, dynamically through ajax.

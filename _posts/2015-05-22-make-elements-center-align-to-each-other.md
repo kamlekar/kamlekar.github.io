@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <h2 id="for-limited-known-items"><strong><em>For limited known items:</em></strong></h2>
 <p>Suppose, we know the number of items present in a container. Lets say the items to be <code>4</code>. Lets wrap those items in separate sections each and give those sections <code>float: left</code> and <code>width: 25%</code>. Here I am giving <code>width: 25%</code> because there are four sections which need to cover the container completely i.e <code>100/4 = 25%</code>. This will result in something similar view as shown below in the image:</p>

@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Recently, I created a component to swipe a container which will reveal a hidden container. For this purpose, I used <code>jQuery 1.11.0</code> and <code>jQuery-mobile-1.4.4</code>. I mentioned the detailed process under the code. Here is the code:</p>
 <pre>

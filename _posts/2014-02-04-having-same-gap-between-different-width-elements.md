@@ -12,7 +12,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>I created code for keeping a fixed gap among the elements even when the width of each element is different. There seems not much to be explained. please comment below if you can't understand anything.</p>
 <p><strong>HTML</strong></p>

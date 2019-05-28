@@ -1,5 +1,7 @@
+---
+---
 body {
-  font-family: 'Open Sans', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
 }
@@ -395,27 +397,21 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
-.post-content{
-  /*font-family: 'Lato';*/
-  /*font-weight: 300;*/
-  word-spacing: 0.2em;
-  /* letter-spacing: 1px; */
+.post-content {
+  font-family: 'Lato';
+  font-weight: 300;
 }
-
-.gist{
-    letter-spacing: normal;
-    word-spacing: normal;
-}
-
 .post-content a {
-    border-bottom: 1px solid currentColor;
-    text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
 }
-
-audio{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0px 0px 3px 1px #ccc;
+audio {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+.buy-beer-link {
+  color: white;
+  font-size: 14px;
 }

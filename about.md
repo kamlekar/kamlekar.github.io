@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "This is what I do."
-header-img: "img/about-bg.jpg"
+header-img: assets/img/about-bg.jpg"
 ---
 
 Hello, my name is Venkateshwar. I am from Hyderabad, India. My Internet alias is [Mr_Green](http://stackexchange.com/users/1721750). I am a web developer, learning new things everyday through stack overflow. Currently working in a cute company,  [Divami](http://divami.com/), on javascript, html and css. I love designing layouts using html and css. I am adaptive to any programming language. 

@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 I was struggling with an Arrow container, which is with box-shadow and border. I somehow managed to get it by using `linear-gradients` and `transform` properties. Here is the fiddle.

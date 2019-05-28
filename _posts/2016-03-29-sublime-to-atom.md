@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 I like [Sublime](https://www.sublimetext.com/) editor but wanted to try [Atom](https://atom.io/) and know why it is so much popular. While coding in Atom, I find many things which were not user friendly (_compare to sublime_) like:

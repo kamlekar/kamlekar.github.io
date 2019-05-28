@@ -17,7 +17,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Here is the code for sharing url in magento. In the below code, I am sharing the specific product url which is referred as <code>$_product</code>. If you want to change the url then just change the value of the variable <code>$product_url</code>. The below example is for sharing url in <strong>Facebook, twitter and google plus</strong>. Enjoy!!</p>
 <pre>

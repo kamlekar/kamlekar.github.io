@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>This can be solved easily if the divs have fixed height, say 20px.  Then you can do the following trick:</p>
 <pre><span style="color:#993366;"><code>&lt;div&gt;

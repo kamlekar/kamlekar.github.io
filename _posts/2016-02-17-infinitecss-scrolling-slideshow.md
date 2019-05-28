@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 Today, I created a Infinite scrolling slideshow using just css. Do check the below code:

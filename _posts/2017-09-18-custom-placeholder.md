@@ -16,7 +16,7 @@ status: publish
 type: post
 published: true
 author: "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 

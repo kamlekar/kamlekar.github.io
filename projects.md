@@ -2,7 +2,7 @@
 layout: page
 title: "Projects"
 description: "My Projects"
-header-img: "img/post-bg-01.jpg"
+header-img: assets/img/post-bg-01.jpg"
 ---
 
 ## Github projects

@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 Today, I created analog clock using CSS and JavaScript (mostly css). Here is the code:

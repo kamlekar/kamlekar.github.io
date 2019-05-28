@@ -17,7 +17,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p style="text-align:justify;">A long time back, a user on <a href="http://stackoverflow.com/q/12636762/1577396">stackoverflow</a> asked a question to center nested child div's inside a parent div. At that time, I stuggled hard for it and atlast got the solution just by using <strong>float:left</strong> and <strong>margin</strong> properties of css.</p>
 <p>Here is the HTML code for it:</p>

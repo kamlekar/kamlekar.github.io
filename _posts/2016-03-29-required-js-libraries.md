@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 
 Recently, I read this [article](http://www.catonmat.net/blog/frameworks-dont-make-sense/) which stated that Frameworks are huge anti-pattern in Software Development. Most of the cases for any project, we don't require frameworks, we just require some functionalities from those frameworks. 

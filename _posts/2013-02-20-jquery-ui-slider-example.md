@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p style="text-align:justify;">Recently, I created a slider using jQuery UI. Many thanks to Stackoverflow.com because with no experience in jQuery-UI, I have done this slider just by searching on it. This is a simple slider example which is based on a single event of it i.e 'slide'. If you want to have more sliders, then just edit the variable <strong>slideCount</strong> value. I hope the comments in between the code of lines will help you to understand what I did here. If you have any doubts or suggestions, please feel free to leave a comment below.</p>
 <p>(Please attach your own image files in the place of <strong>stripeRed.png</strong> and <strong>stripeGreen.png</strong> in jQuery file)</p>

@@ -9,7 +9,7 @@ status: draft
 type: post
 published: false
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p><strong>Disclaimer</strong>: In this post, I am just sharing my experience. If I am wrong in any context then please comment to this post so that I can learn or correct myself.</p>
 <p>While doing layout in HTML, there are many magic fixes which make our work easy. According to me, one of those magic fixes is using <code>overflow: hidden</code> CSS property. This property should be used if and only if you want to hide some content or elements inside a container but this property can also be used to <strong>clear float of child elements</strong> which I highly discourage to do so.</p>

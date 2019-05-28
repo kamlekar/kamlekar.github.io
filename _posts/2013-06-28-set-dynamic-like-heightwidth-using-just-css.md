@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <div dir="ltr" style="text-align:left;">Many web developers need a design like having two div elements adjacent to each other and occupying the complete width of the parent element. Something like this:</p>
 <div class="separator" style="clear:both;text-align:center;"><a style="margin-left:1em;margin-right:1em;" href="http://2.bp.blogspot.com/-aHMciKMmcJk/UcbBNKSj-SI/AAAAAAAAAB0/BoesFupZtEI/s1600/Untitled.png"><img alt="" src="assets/4ed5c-untitled.png" width="400" height="126" border="0" /></a></div>

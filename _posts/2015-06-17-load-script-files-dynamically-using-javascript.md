@@ -17,7 +17,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Here is the code which I am using to load files dynamically. You just need to pass the values in arrays such that all dependency files are loaded.</p>
 <pre>

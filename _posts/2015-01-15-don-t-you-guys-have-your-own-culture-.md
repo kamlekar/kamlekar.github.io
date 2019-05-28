@@ -9,7 +9,7 @@ status: draft
 type: post
 published: false
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Here I am not against any religion. This is a wake up call to Hindus. So, if you are a non-hindu don't read this article because it is not useful for you.</p>
 <p>Disclaimer:  I am not talking bad against other religions here. Peace :)</p>

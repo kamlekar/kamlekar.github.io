@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Guys while working to get ellipsis on second line in my project, I realized we can do this using just CSS!! </p>
 <p><strong>PROS:</strong><br />

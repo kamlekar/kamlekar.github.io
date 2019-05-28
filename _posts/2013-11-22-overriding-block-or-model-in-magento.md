@@ -15,7 +15,7 @@ status: publish
 type: post
 published: true
 author:     "Venkateshwar"
-header-img: "img/home-bg.jpg"
+header-img: assets/img/home-bg.jpg"
 ---
 <p>Here I am going to explain some points which must be considered while overriding a Mage's php class. I am  going to explain it step by step with example as overriding a model which is <strong><code>Mage_Review_Model_Resource_Review</code></strong> and the function to which I am overriding is <strong><code>_afterSave()</code></strong>.</p>
 <li>For overriding a class, you should create a new module (<em>which is identical to the name of the module to which we are overriding</em>) in <strong><code>app/code/local/{company_name}</code></strong> folder. Here <code><strong>{company_name}</strong></code> could be anything which you think would be unique throughout your project just like core files name "Mage".</li>
