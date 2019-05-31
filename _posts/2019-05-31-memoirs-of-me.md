@@ -11,14 +11,14 @@ tags:
 - team members
 - CEO
 - Design
-status: draft
+status: published
 type: post
 published: true
 author: "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-I still remember the first day of Interview and the tension feeling on me while [**Naveen garu**](http://divami.com/people/naveen) (_founder and CEO_) was asking me tricky logical questions related the work I was presenting from Github. And the unforgettable Design classes and long valuable discussions from [**Vasu garu**](http://letus.design/vasuchinta/) (_former Co-founder & Design chief_). These discussions I won't be able to express but I am sure these are imbibed in me, as I can feel it.
+I still remember the first day of Interview and the tension feeling on me while [**Naveen garu**](http://divami.com/people/naveen) (_founder and CEO_) was asking me tricky logical questions related to the work I was presenting from my Github. And the unforgettable Design classes and long valuable discussions from [**Vasu garu**](http://letus.design/vasuchinta/) (_former Co-founder & Design chief_). These discussions I won't be able to express but I am sure these are imbibed in me, as I can feel it.
 
 It's been an awesome experience working in the Divami Design Labs. Lot of support from the management even from the Naveen garu himself ( There are occasions where he helped us writing the code!!). Big shout to [**Sumathi garu**](http://divami.com/people/sumathi) who being head of development used to see us as her own children, showing lot of love on us. I wish to work with her in future, if I am that lucky. Salute to [**Vasu garu**](http://letus.design/vasuchinta/), he helped me understand the necessity of User Experience in Web where I used to think considering UX for web is silly (I was dead wrong). And learnt lot from my team members who used to give me challenges with their issues. I hope I learnt valuable lessons from these lovely people and continue following the same throughout my life. At last, I just want to say all these people will be missed dearly.
 
