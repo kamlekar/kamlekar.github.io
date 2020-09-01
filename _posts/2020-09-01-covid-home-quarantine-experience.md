@@ -30,7 +30,7 @@ header-img: "img/home-bg.jpg"
 <li>Digital infrared thermometer (<em>to check fever continuously</em>)</li>
 <li>Sugar and BP digital devices</li>
 <li>Oxymeter (<em>very important</em>)</li>
-<li>Electic water heater</li>
+<li>Electric water heater</li>
 <li>Citrizen tablets (<em>for cold, which shows up before fever</em>)</li>
 <li>Paracetemol tablets (<em>we consumed this in earlier rise of temperature to suppress it well</em>)</li>
 </ul>
@@ -48,7 +48,7 @@ header-img: "img/home-bg.jpg"
 <li>Kept the windows open from morning to evening so the bad air goes away (<em>We closed it at night because of mosquitoes</em>)</li>
 <li>Every night we sprayed disinfectant liquid in all rooms using spray gun.</li>
 <li>Every night we inhaled hot vapours of Breathwell tablets</li>
-<li>Hot water goggline</li>
+<li>Hot water goggling</li>
 <li>Two boiled eggs everyday without yellow</li>
 <li>Ate night soaked sprouts, 4 almonds - everyday</li>
 <li>Washed utensils in warm water</li>
