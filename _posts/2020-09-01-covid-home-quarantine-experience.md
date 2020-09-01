@@ -33,6 +33,8 @@ header-img: "img/home-bg.jpg"
 <li>Electric water heater</li>
 <li>Citrizen tablets (<em>for cold, which shows up before fever</em>)</li>
 <li>Paracetemol tablets (<em>we consumed this in earlier rise of temperature to suppress it well</em>)</li>
+<li>Cough syrup</li> (_we saw this after or with fever_)
+<li>ORS satchets (_we had this to be hydrated after fever_)</li>
 </ul>
 <p>Everyone in our family had mild cold symptoms and sometimes lose of breath for a second or two.</p>
 <p>Also, we did the following things:</p>
