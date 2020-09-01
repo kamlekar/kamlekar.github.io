@@ -37,7 +37,7 @@ header-img: "img/home-bg.jpg"
 <p>Everyone in our family had mild cold symptoms and sometimes lose of breath for a second or two.</p>
 <p>Also, we did the following things:</p>
 <ul>
-<li>Separate tongue cleaners and we keep our tooth brush and tongue cleaners with us but not in any common space (<em>we are a joint family</em>)</li>
+<li>Separate tongue cleaners and we kept our tooth brush and tongue cleaners with us and not in any common space (<em>we are a joint family</em>)</li>
 <li>Increase immunity by tablets, Dabur Chyawanprash.</li>
 <li>Drank tulasi arak drops in half glass warm water. (day and night)</li>
 <li>lemon tea (~3pm)</li>
