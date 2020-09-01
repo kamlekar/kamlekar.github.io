@@ -3,6 +3,28 @@
 
 ---
 
+<hr>
+<p>layout: post<br>
+title: Covid home quarantine experiences<br>
+subtitle: “”<br>
+date: 2020-09-01 11:59:44.000000000 +05:30<br>
+categories:</p>
+<ul>
+<li>personal<br>
+tags:</li>
+<li>covid</li>
+<li>corona</li>
+<li>virus</li>
+<li>home</li>
+<li>quarantine</li>
+<li>experiences<br>
+status: published<br>
+type: post<br>
+published: true<br>
+author: “Venkateshwar”<br>
+header-img: “img/home-bg.jpg”</li>
+</ul>
+<hr>
 <blockquote>
 <p>Disclaimer: I am just sharing our experiences and things we followed to recover from Covid. Fortunately, none of us in our family had severe issues. Maybe we tackled it well before it could become severe.</p>
 </blockquote>
