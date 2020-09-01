@@ -20,11 +20,11 @@ header-img: "img/home-bg.jpg"
 ---
 
 
-> Disclaimer: I am just sharing our experiences and things we followed to recover from Covid. Fortunately, none of us in our family had severe issues. Maybe we tackled it well before it could become severe.
+> Disclaimer: I am just sharing our experiences and things we followed to recover from Covid being Home quarantine. Fortunately, none of us in our family had severe issues. Maybe we tackled it well before it could become severe.
 
 Here are the items we kept in hand to handle covid situation:
 
--   Portable oxygen cylinders (_we ordered just in case of any severity issues. Fortunately, our situation was not worse to use this_)
+-   Portable oxygen cylinders (_we ordered just in case of any severe issues. Fortunately, our situation was not worse to use this_)
 -   Washable PPE kit
 -   Digital infrared thermometer (_to check fever continuously_)
 -   Sugar and BP digital devices
@@ -32,8 +32,7 @@ Here are the items we kept in hand to handle covid situation:
 -   Electric water heater
 -   Citrizen tablets (_for cold, which shows up before fever_)
 -   Paracetemol tablets (_we consumed this in earlier rise of temperature to suppress it well_)
--   Cough syrup
-(_we saw this after or with fever_) 
+-   Cough syrup (_we saw this after or with fever_) 
 -   ORS satchets (_To keep body hydrated after fever_)
 
 Everyone in our family had mild cold symptoms and sometimes lose of breath for a second or two.
@@ -59,4 +58,4 @@ Also, we did the following things:
 
 > Note: Even after doing the above things, we had cold and then fever which we suppressed by having citrizen and paracetemol tablets. Citrizen and paracetemol tablets might not be suitable for everyone. Please consult your doctor before taking it.
 
-Also, we took special care of our father who is 72 years and has diabetes and heart problems. Kept him in strict isolation in a room with single person point of contact. We were afraid to quarantine him in home but still we did so as his symptoms were mild.
+Also, we took special care of our father who is 72 years old who has diabetes and heart problems. Kept him in strict isolation in a room with single person point of contact. We were afraid to quarantine him in home but still we did so as his symptoms were mild.
