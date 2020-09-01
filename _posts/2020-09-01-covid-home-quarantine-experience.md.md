@@ -48,6 +48,10 @@ header-img: "img/home-bg.jpg"
 <li>Kept the windows open from morning to evening so the bad air goes away (<em>We closed it at night because of mosquitoes</em>)</li>
 <li>Every night we sprayed disinfectant liquid in all rooms using spray gun.</li>
 <li>Every night we inhaled hot vapours of Breathwell tablets</li>
+<li>Hot water goggline</li>
+<li>Two boiled eggs everyday without yellow</li>
+<li>Ate night soaked sprouts, 4 almonds - everyday</li>
+<li>Washed utensils in warm water</li>
 </ul>
 <blockquote>
 <p>Note: Even after doing the above things, we had cold and then fever which we suppressed by having citrizen and paracetemol tablets. Citrizen and paracetemol tablets might not be suitable for everyone. Please consult your doctor before taking it.</p>
