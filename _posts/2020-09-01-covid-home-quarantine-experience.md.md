@@ -52,6 +52,7 @@ header-img: "img/home-bg.jpg"
 <li>Two boiled eggs everyday without yellow</li>
 <li>Ate night soaked sprouts, 4 almonds - everyday</li>
 <li>Washed utensils in warm water</li>
+<li>Soaked clothes in warm dettol water for 30 mins, before washing</li>
 </ul>
 <blockquote>
 <p>Note: Even after doing the above things, we had cold and then fever which we suppressed by having citrizen and paracetemol tablets. Citrizen and paracetemol tablets might not be suitable for everyone. Please consult your doctor before taking it.</p>
