@@ -19,9 +19,6 @@ author: "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-
-## My macbook kernel_task overloading issue fixed
-
 > Disclaimer: This article is more as a quick check for me to go through if such situation happened again. Hopefully, this will be helpful to others as well.
 
 From the last five days, I was noticing my macbook pro was sluggish. It was very hard to work with. When I checked the activity monitor, I saw `kernel_task` cpu process was around 1000%. This is too much and clearly the obvious reason for sluggishness of the system.
