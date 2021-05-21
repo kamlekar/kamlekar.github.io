@@ -19,7 +19,7 @@ author: "Venkateshwar"
 header-img: "img/home-bg.jpg"
 ---
 
-> Disclaimre: Though this article uses Django template as SSR. The concept should work for any SSR.
+> Disclaimer: Though this article uses Django template as SSR. The concept should work for any SSR.
 
 So, in our project, we had a high priority requirement of letting user to color print the web page having Charts and tables. As the charts were in canvas and canvas shows up in color while printing, this was not an issue. But coming to the Tables, they were printing in black and white though each cell of table was in different color of capsule like background. 
 
