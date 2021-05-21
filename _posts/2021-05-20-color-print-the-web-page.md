@@ -106,5 +106,3 @@ and the CSS:
          overflow: hidden;
      }
 
-
-> Written with [StackEdit](https://stackedit.io/).
