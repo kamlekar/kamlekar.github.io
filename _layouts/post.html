@@ -29,10 +29,8 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-content">
-                {% include ads/post-header-ad.html %}
                 <hr>
-				{{ content }}
-
+                  {{ content }}
                 <hr>
 
                 <ul class="pager">
@@ -48,7 +46,6 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr>
-                {% include ads/post-footer-ad.html %}
                 <hr>
                 <!-- comments -->
                 {% include disqus.html %}

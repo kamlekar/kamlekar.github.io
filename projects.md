@@ -13,4 +13,3 @@ header-img: "img/post-bg-01.jpg"
 - [Green-text-editor](https://github.com/kamlekar/Green-text-editor)
 
 <hr>
-{% include ads/post-header-ad.html %}

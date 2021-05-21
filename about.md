@@ -14,5 +14,3 @@ Follow me on [twitter](https://twitter.com/feedmeaddiction) or ping me on [Javas
 <p><a href="http://stackexchange.com/users/1721750"><br>
 <img src="http://stackexchange.com/users/flair/1721750.png" width="208" height="58" alt="profile for Mr_Green on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Mr_Green on Stack Exchange, a network of free, community-driven Q&amp;A sites"><br>
 </a></p>
-
-{% include ads/post-header-ad.html %}
