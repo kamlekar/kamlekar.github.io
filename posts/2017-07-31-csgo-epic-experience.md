@@ -6,6 +6,7 @@ date: 2017-07-31 07:59:44.000000000 +05:30
 categories:
 - games
 tags:
+- posts
 - counter
 - strike
 - global
@@ -15,7 +16,7 @@ tags:
 status: publish
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

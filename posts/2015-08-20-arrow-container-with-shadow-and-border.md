@@ -5,6 +5,7 @@ subtitle:   ""
 categories:
 - technical
 tags:
+- posts
 - css
 - arrow
 - box-shadow
@@ -14,7 +15,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

@@ -4,11 +4,12 @@ title: Don't you guys have your own culture?
 date: 2015-01-15 00:01:25.000000000 +05:30
 categories: 
 - leisure
-tags: []
+tags:
+- posts []
 status: draft
 type: post
 published: false
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>Here I am not against any religion. This is a wake up call to Hindus. So, if you are a non-hindu don't read this article because it is not useful for you.</p>

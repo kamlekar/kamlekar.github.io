@@ -6,6 +6,7 @@ date: 2020-09-01 11:59:44.000000000 +05:30
 categories:
 - personal
 tags:
+- posts
 - covid
 - corona
 - virus
@@ -15,7 +16,7 @@ tags:
 status: published
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

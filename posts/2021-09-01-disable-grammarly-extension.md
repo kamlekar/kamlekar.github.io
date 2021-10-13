@@ -6,6 +6,7 @@ date: 2021-09-01 11:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - grammarly
 - extension
 - disable
@@ -14,7 +15,7 @@ tags:
 status: published
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
@@ -27,7 +28,7 @@ These attributes keep changing and I am not sure what is the latest working attr
 
 Seeing this I added the following code in CSS, which worked:
 
-```
+```css
 grammarly-extension,
 grammarly-desktop-integration, 
 grammarly-popups {
@@ -39,7 +40,7 @@ But sometimes, we don't want to disable this extension to all text inputs in the
 
 Also, if we just want to remove the bottom-right grammarly icon in text input but not the grammarly suggestions for errors, it is possible to specifically disable in this case with below code:
 
-```
+```css
 .disable-grammarly grammarly-extension {
     display: none;
 }

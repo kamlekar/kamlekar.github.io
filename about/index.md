@@ -7,6 +7,8 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+Hello, my name is Venkateshwar. I enjoy working on things that involve UX development, Motion development, Performance optimization, UI look & feel, accessibility, and Teamwork. Kind of a UI developer but ready to solve any user experience problem irrespective of the technology used - A UX engineer. Can be found on [Stackoverflow](https://stackoverflow.com/users/1577396) answering programming questions or working on leisure projects on [Github](https://github.com/kamlekar).
 
-This blog template is based on [eleventy-high-performance-blog](https://www.industrialempathy.com/posts/eleventy-high-performance-blog/) which itself is based on [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
+<a href="http://stackexchange.com/users/1721750"><br>
+<img src="http://stackexchange.com/users/flair/1721750.png" width="208" height="58" alt="profile for Mr_Green on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Mr_Green on Stack Exchange, a network of free, community-driven Q&amp;A sites" class="img-responsive"><br>
+</a>

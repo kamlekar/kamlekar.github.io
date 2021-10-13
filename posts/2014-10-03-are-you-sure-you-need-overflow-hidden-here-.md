@@ -4,11 +4,12 @@ title: ! 'Are you sure you need "overflow: hidden" here?'
 date: 2014-10-03 08:51:38.000000000 +05:30
 categories: 
 - technical
-tags: []
+tags:
+- posts []
 status: draft
 type: post
 published: false
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p><strong>Disclaimer</strong>: In this post, I am just sharing my experience. If I am wrong in any context then please comment to this post so that I can learn or correct myself.</p>

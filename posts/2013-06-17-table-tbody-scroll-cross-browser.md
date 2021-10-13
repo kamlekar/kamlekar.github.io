@@ -5,6 +5,7 @@ date: 2013-06-17 05:28:39.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - cross-browser
 - css
 - html
@@ -16,75 +17,78 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>There are many blogs based on tbody scroll of table but none (AFAIK) are cross-browser compatible. So, I thought to post one which works fine in IE8+, Chrome and Firefox. Let me know if there are any issues through below comments.</p>
 <p>HTML</p>
-<pre><code>
-&lt;table&gt;
-    &lt;thead&gt;
-        &lt;tr&gt;
-            &lt;th&gt;head&lt;/th&gt;
-            &lt;th&gt;head&lt;/th&gt;
-            &lt;th&gt;head&lt;/th&gt;
-            &lt;th&gt;head&lt;/th&gt;
-        &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-            &lt;td&gt;row&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-</code></pre>
+
+```javascript
+<table>
+    <thead>
+        <tr>
+            <th>head</th>
+            <th>head</th>
+            <th>head</th>
+            <th>head</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+        <tr>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+            <td>row</td>
+        </tr>
+    </tbody>
+</table>
+```
+
 <p>CSS</p>
-<pre><code>
+
+```javascript
 table {
     border-collapse: collapse;
     width: 100%;
@@ -125,6 +129,6 @@ tr:after{   /* IE8 fix */
     margin-left: -3px; /* to hide the content above tr */ /* not necessary if you are ok with 1px gap */
     visibility: hidden;
 }
+```
 
-</code></pre>
 <p>You can also check the post on <a title="StackOverflow" href="http://stackoverflow.com/q/16984323/1577396" target="_blank">StackOverflow</a> which I had asked and answered it after figuring it out. Here is the <a title="Working Fiddle" href="http://jsfiddle.net/venkateshwar/X8FSw/18/" target="_blank">Working Fiddle</a> and <a title="demo" href="http://jsfiddle.net/venkateshwar/X8FSw/18/show/" target="_blank">demo</a> to check in IE8.</p>

@@ -6,6 +6,7 @@ date: 2017-07-22 07:59:44.000000000 +05:30
 categories:
 - Music
 tags:
+- posts
 - linkin
 - park
 - chester
@@ -13,7 +14,7 @@ tags:
 status: publish
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/linkin-park.jpg"
 ---
 

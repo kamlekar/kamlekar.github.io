@@ -6,6 +6,7 @@ date: 2019-05-10 02:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - uber
 - ola
 - user experience
@@ -17,9 +18,8 @@ status: publish
 type: post
 mathML: true
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
-permalink: ux-in-cab
 ---
 
 

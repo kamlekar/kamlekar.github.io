@@ -6,6 +6,7 @@ date: 2021-05-20 11:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - color
 - print
 - canvas
@@ -15,7 +16,7 @@ tags:
 status: published
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
@@ -30,10 +31,11 @@ To give more context on the capsule cells in tables:
 - Capsules should not break/wrap into second line but show the text in a single line (_This is gracefully and automatically handled by the tables if we put `white-space: nowrap` to `td` elements_)
 - These capsules are `span` elements with text inside it with `white-space: nowrap`.
 
-      <td>
-         <span class="capsule" style="background-color: #ccc;"> Some text here</span>
-      </td>
-
+```css
+<td>
+    <span class="capsule" style="background-color: #ccc;"> Some text here</span>
+</td>
+```
 Doing some research, we found out the possible ways to color print a page:
 - By using color images
 - By using Canvas element
@@ -43,21 +45,22 @@ In our case, using color images is not possible as the capsule color is dynamica
 
 As I know SVG, we decided to try SVG. The idea was to hold the dynamic color inside the SVG as `fill` color instead of CSS `background-color`.  Something like the below code:
 
-    <td>
-        <span class="capsule">
-            <svg width="100%" height="100%" viewBox="0 0 100 100">
-                <rect 
-                  x="0" 
-                  y="0" 
-                  width="100" 
-                  height="100" 
-                  fill="#CCCCCC" <!-- Using fill to hold the dynamic color value from Django templates -->
-                /> 
-            </svg>
-            Some text here
-        </span>
-    </td>
-
+```css
+<td>
+    <span class="capsule">
+        <svg width="100%" height="100%" viewBox="0 0 100 100">
+            <rect 
+                x="0" 
+                y="0" 
+                width="100" 
+                height="100" 
+                fill="#CCCCCC" <!-- Using fill to hold the dynamic color value from Django templates -->
+            /> 
+        </svg>
+        Some text here
+    </span>
+</td>
+```
 
 
 Then to behave the SVG as background, 
@@ -72,37 +75,40 @@ Doing some research, we found out that the only way to color print the tables is
 
 Here is the excerpt code:
 
-    <td>
-        <span class="capsule">
-	        <div class="capsule--wrapper">
-                <svg width="100%" height="100%" viewBox="0 0 100 100">
-                    <rect 
-                      x="0" 
-                      y="0" 
-                      width="100" 
-                      height="100" 
-                      fill="#CCCCCC" <!-- Using fill to hold the dynamic color value from Django templates -->
-                    /> 
-                </svg>
-             </div>
-            Some text here
-        </span>
-    </td>
+```javascript
+<td>
+    <span class="capsule">
+        <div class="capsule--wrapper">
+            <svg width="100%" height="100%" viewBox="0 0 100 100">
+                <rect 
+                    x="0" 
+                    y="0" 
+                    width="100" 
+                    height="100" 
+                    fill="#CCCCCC" <!-- Using fill to hold the dynamic color value from Django templates -->
+                /> 
+            </svg>
+            </div>
+        Some text here
+    </span>
+</td>
+```
 
 and the CSS:
 
-    .capsule {
-        position: relative;
-        white-space: nowrap;
-    }
-    
-    .capsule-wrapper {
-         position: absolute;
-         left: 0;
-         right: 0;
-         top: 0;
-         bottom: 0;
-         border-radius: 99999px;
-         overflow: hidden;
-     }
+```css
+.capsule {
+    position: relative;
+    white-space: nowrap;
+}
 
+.capsule-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 99999px;
+    overflow: hidden;
+}
+```

@@ -31,14 +31,29 @@ const SELF = quote("self");
 
 const CSP = {
   regular: serialize([
-    // By default only talk to same-origin
-    ["default-src", SELF],
     // No plugins
-    ["object-src", quote("none")],
+    ["object-src", SELF],
     // Script from same-origin and inline-hashes.
-    ["script-src", SELF, /* Replaced by csp.js plugin */ "HASHES"],
+    [
+      "script-src",
+      SELF,
+      /* Replaced by csp.js plugin */ "HASHES",
+      quote("unsafe-eval"),
+      "https://gist.github.com",
+      "https://codepen.io",
+      "http://assets.codepen.io",
+      "https://static.codepen.io",
+      "https://production-assets.codepen.io/",
+      "https://cpwebassets.codepen.io/",
+      quote("unsafe-inline"),
+    ],
     // Inline CSS is allowed.
-    ["style-src", quote("unsafe-inline")],
+    [
+      "style-src",
+      quote("unsafe-eval"),
+      "https://github.githubassets.com",
+      quote("unsafe-inline"),
+    ],
     // Images may also come from data-URIs.
     ["img-src", SELF, "data:"],
 

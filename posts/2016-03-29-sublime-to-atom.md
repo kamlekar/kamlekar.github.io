@@ -10,10 +10,10 @@ tags:
 - sublime
 - apm
 - editor
-status: publish
+status: draft
 type: post
-published: true
-author:     "Venkateshwar"
+published: false
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

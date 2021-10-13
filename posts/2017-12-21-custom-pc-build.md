@@ -6,6 +6,7 @@ date: 2017-12-21 07:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - motherboard
 - PCI
 - M2
@@ -18,7 +19,7 @@ status: publish
 type: post
 mathML: true
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

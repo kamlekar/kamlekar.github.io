@@ -10,15 +10,15 @@ tags:
 - mobile
 - features
 - phone
-status: publish
+status: draft
 type: post
 published: false
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 **Note:** This article is based on Author's personal opinion.
 
-###What features to see?
+### What features to see?
 Most people are confused on which feature to see when buying a mobile. I will list out some features/specifications which one must look in while buying a mobile:
 
 - **GPU Speed:**
@@ -46,7 +46,7 @@ Apart from the above mentioned features there are some specific things which eve
 - **Battery discharging speed:**
 - **Slippery:**
 
-###Some extra awesome features:
+### Some extra awesome features:
 
 From the above mentioned features, there should be some wow features which I think are necessary:
 
@@ -58,7 +58,7 @@ From the above mentioned features, there should be some wow features which I thi
 - **Finger print Scanner:**
 - **One touch camera:** I believe there should be a button on mobile which is when I press, I will jump to Camera mode even when the Mobile is locked (_there should be some kind of finger print scanner to quickly access the capture_).
 
-###What kind of Mobile I like?
+### What kind of Mobile I like?
 
 I personally like to have all the above mentioned features in one mobile and also the screen size of the mobile should not be more than 4-Inch (yes, you heard it right). I don't need a large screen mobile because I believe that even a 4 Inch mobile is enough large to watch videos and browse Internet. I don't care what kind of OS my mobile is running on until all the latest apps are supported.
 

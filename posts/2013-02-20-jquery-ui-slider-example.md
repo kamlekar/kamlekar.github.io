@@ -5,6 +5,7 @@ date: 2013-02-20 12:21:30.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - Projects
 - Style
 - Technology
@@ -12,40 +13,40 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
-permalink: false
 ---
-<p style="text-align:justify;">Recently, I created a slider using jQuery UI. Many thanks to Stackoverflow.com because with no experience in jQuery-UI, I have done this slider just by searching on it. This is a simple slider example which is based on a single event of it i.e 'slide'. If you want to have more sliders, then just edit the variable <strong>slideCount</strong> value. I hope the comments in between the code of lines will help you to understand what I did here. If you have any doubts or suggestions, please feel free to leave a comment below.</p>
+<p>Recently, I created a slider using jQuery UI. Many thanks to Stackoverflow.com because with no experience in jQuery-UI, I have done this slider just by searching on it. This is a simple slider example which is based on a single event of it i.e 'slide'. If you want to have more sliders, then just edit the variable <strong>slideCount</strong> value. I hope the comments in between the code of lines will help you to understand what I did here. If you have any doubts or suggestions, please feel free to leave a comment below.</p>
 <p>(Please attach your own image files in the place of <strong>stripeRed.png</strong> and <strong>stripeGreen.png</strong> in jQuery file)</p>
 <p>Here is the code:</p>
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js&quot;&gt;&lt;/script&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css&quot; type=&quot;text/css&quot;/&gt;
 
-	&lt;script src=&quot;http://code.jquery.com/ui/1.10.0/jquery-ui.js&quot;&gt;&lt;/script&gt;
-	&lt;script type=&quot;text/javascript&quot;&gt;
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" type="text/css"/>
+
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script type="text/javascript">
 
 		$(document).ready(function() {
 			//give number of sliders to be generated here
 			var slideCount = 3;
 			//Generating each slider dynamically.
-			for(var intCount=0;intCount&lt;slideCount;intCount++){
-				$(&quot;#slider&quot;).append('&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;divValue&quot;&gt;0&lt;/div&gt;&lt;/div&gt;')
+			for(var intCount=0;intCount<slideCount;intCount++){
+				$("#slider").append('<div><div><div></div></div><div class="divValue">0</div></div>')
 			}
 
 			//getting the position of the sliders on the page.
-			var divPosition = $(&quot;#slider&gt;div&gt;div&quot;).offset().left;
+			var divPosition = $("#slider>div>div").offset().left;
 			//getting the width of one of the slider.
-			var width = $(&quot;#slider&gt;div&gt;div&quot;).width();
+			var width = $("#slider>div>div").width();
 			//Calculating the middle value on the page.
 			var offsetPosition = (divPosition + width/2);
 
 			//Converting the selected div's as sliders by doing the below code.
-			var firstChild = $(&quot;#slider&gt;div&quot;).children('div:nth-child(1)');
+			var firstChild = $("#slider>div").children('div:nth-child(1)');
 			firstChild.slider(
 		  	{
 		    	min: -100,
@@ -60,17 +61,17 @@ permalink: false
 			  	$(this).parent('div').children('div:nth-child(2)').html(ui.value);
 
 			  	//if the slided value is less than zero
-			 	if(ui.value&lt;0){
+			 	if(ui.value<0){
 			  		//change background color to red
 			  		var anchorOffset = $(this).children('a').offset().left;
-			  		$(this).children('div').css({'width': offsetPosition - anchorOffset,'right':divPosition - 10,'background-image':'url(&quot;images/stripeRed.png&quot;)','left':'auto'});
+			  		$(this).children('div').css({'width': offsetPosition - anchorOffset,'right':divPosition - 10,'background-image':'url("images/stripeRed.png")','left':'auto'});
 
 			  	}
 			  	//if the slided value is greater than zero
-			  	else if(ui.value&gt;0){
+			  	else if(ui.value>0){
 			  		//change background color to green.
 					var anchorOffset = $(this).children('a').offset().left;
-			  		$(this).children('div').css({'width': anchorOffset - offsetPosition,'left':divPosition - 5,'background-image':'url(&quot;images/stripeGreen.png&quot;)','right':'auto'});
+			  		$(this).children('div').css({'width': anchorOffset - offsetPosition,'left':divPosition - 5,'background-image':'url("images/stripeGreen.png")','right':'auto'});
 			  	}
 
 			  	//if the slided value is equal to zero.
@@ -79,19 +80,19 @@ permalink: false
 			    }
 		  	}
 		});
-	&lt;/script&gt;
-	&lt;style&gt;
+	</script>
+	<style>
 		#mainSlider{width:50%;margin: 0 auto;margin-top:100px;}
-		#slider&gt;div{margin-bottom:50px;}
-		#slider&gt;div&gt;div:nth-child(2), .divValue{font-family:consolas;background-color:silver;border:1px solid gray;width:75px;border-radius:15px;text-align:center;margin-top:5px;}
-		#slider&gt;div&gt;div&gt;div{position:absolute;height:100%;}
-	&lt;/style&gt;
-&lt;/head&gt;
-	&lt;body&gt;
-		&lt;div id=&quot;mainSlider&quot;&gt;
-			&lt;div id=&quot;slider&quot;&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+		#slider>div{margin-bottom:50px;}
+		#slider>div>div:nth-child(2), .divValue{font-family:consolas;background-color:silver;border:1px solid gray;width:75px;border-radius:15px;text-align:center;margin-top:5px;}
+		#slider>div>div>div{position:absolute;height:100%;}
+	</style>
+</head>
+	<body>
+		<div id="mainSlider">
+			<div id="slider">
+			</div>
+		</div>
+	</body>
+</html>
+```
