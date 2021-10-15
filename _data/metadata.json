@@ -1,0 +1,26 @@
+{
+  "title": "User Engineering",
+  "url": "https://user.engineering",
+  "domain": "user.engineering",
+  "description": "A place to share my experiences",
+  "genre": "Insert a schema.org genre",
+  "googleAnalyticsId": "UA-65125366-1",
+  "sendWebVitals": false,
+  "feed": {
+    "subtitle": "Posts feed",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://user.engineering"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://user.engineering/feed/feed.json"
+  },
+  "author": {
+    "name": "Venkateshwar",
+    "twitterHandle": "feedmeaddiction"
+  },
+  "publisher": {
+    "name": "Venkateshwar"
+  }
+}
