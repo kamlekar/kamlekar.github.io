@@ -52,17 +52,17 @@ module.exports = async function srcset(filename, format) {
 
 async function resize(filename, width, format) {
   const out = sizedName(filename, width, format);
-  if (await exists("_site" + out)) {
+  if (await exists("site" + out)) {
     return out;
   }
-  await sharp("_site" + filename)
+  await sharp("site" + filename)
     .rotate() // Manifest rotation from metadata
     .resize(width)
     [format]({
       quality: quality[format] || quality.default,
       reductionEffort: 6,
     })
-    .toFile("_site" + out);
+    .toFile("site" + out);
 
   return out;
 }

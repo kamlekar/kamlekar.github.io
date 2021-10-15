@@ -62,7 +62,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
 
   eleventyConfig.addPlugin(localImages, {
-    distPath: "_site",
+    distPath: "site",
     assetPath: "/img/remote",
     selector:
       "img,amp-img,amp-video,meta[property='og:image'],meta[name='twitter:image'],amp-story",
@@ -75,21 +75,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-  eleventyConfig.addNunjucksAsyncFilter("addHash", function (
-    absolutePath,
-    callback
-  ) {
-    readFile(`_site${absolutePath}`, {
-      encoding: "utf-8",
-    })
-      .then((content) => {
-        return hasha.async(content);
+  eleventyConfig.addNunjucksAsyncFilter(
+    "addHash",
+    function (absolutePath, callback) {
+      readFile(`site${absolutePath}`, {
+        encoding: "utf-8",
       })
-      .then((hash) => {
-        callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`);
-      })
-      .catch((error) => callback(error));
-  });
+        .then((content) => {
+          return hasha.async(content);
+        })
+        .then((hash) => {
+          callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`);
+        })
+        .catch((error) => callback(error));
+    }
+  );
 
   async function lastModifiedDate(filename) {
     try {
@@ -110,22 +110,22 @@ module.exports = function (eleventyConfig) {
   // Cache the lastModifiedDate call because shelling out to git is expensive.
   // This means the lastModifiedDate will never change per single eleventy invocation.
   const lastModifiedDateCache = new Map();
-  eleventyConfig.addNunjucksAsyncFilter("lastModifiedDate", function (
-    filename,
-    callback
-  ) {
-    const call = (result) => {
-      result.then((date) => callback(null, date));
-      result.catch((error) => callback(error));
-    };
-    const cached = lastModifiedDateCache.get(filename);
-    if (cached) {
-      return call(cached);
+  eleventyConfig.addNunjucksAsyncFilter(
+    "lastModifiedDate",
+    function (filename, callback) {
+      const call = (result) => {
+        result.then((date) => callback(null, date));
+        result.catch((error) => callback(error));
+      };
+      const cached = lastModifiedDateCache.get(filename);
+      if (cached) {
+        return call(cached);
+      }
+      const promise = lastModifiedDate(filename);
+      lastModifiedDateCache.set(filename, promise);
+      call(promise);
     }
-    const promise = lastModifiedDate(filename);
-    lastModifiedDateCache.set(filename, promise);
-    call(promise);
-  });
+  );
 
   eleventyConfig.addFilter("encodeURIComponent", function (str) {
     return encodeURIComponent(str);
@@ -196,7 +196,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {
-        const content_404 = fs.readFileSync("_site/404.html");
+        const content_404 = fs.readFileSync("site/404.html");
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -232,7 +232,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
       // Warning hardcoded throughout repo. Find and replace is your friend :)
-      output: "_site",
+      output: "site",
     },
   };
 };
