@@ -4,7 +4,8 @@ title: Radial progress bar
 date: 2015-06-29 12:17:19.000000000 +05:30
 categories: 
 - technical
-tags: 
+tags:
+- posts 
 - css
 - radial
 - percentage
@@ -13,23 +14,28 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>Recently, I created a radial progress bar with help from <a href="http://stackoverflow.com/users/2606013/harry">Harry</a>. I am sharing the code here. In future, if I get time, I will explain it.</p>
 <h2 id="html">HTML</h2>
-<pre><code>&lt;div class="radial-container"&gt;
-    &lt;div class="radial"&gt;&lt;/div&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="left"&gt;&lt;/div&gt;
-        &lt;div class="right"&gt;&lt;/div&gt;
-        &lt;div class="bottom-left"&gt;&lt;/div&gt;
-        &lt;div class="bottom-right"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+
+```css
+<div class="radial-container">
+    <div class="radial"></div>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
+    </div>
+</div>
+```
+
 <h2 id="css">CSS</h2>
-<pre><code>.container {
+
+```css
+.container {
     position: absolute;
     left: 0;
     right: 0;
@@ -92,9 +98,12 @@ header-img: "img/home-bg.jpg"
     height: 100px;
     position: relative;
 }
-</code></pre>
+```
+
 <h2 id="jquery">jQuery</h2>
-<pre><code>function progress(value, elem) {
+
+```javascript
+function progress(value, elem) {
     function transform(v) {
         return {
             'transform': 'rotate(' + v + 'deg)'
@@ -126,7 +135,7 @@ header-img: "img/home-bg.jpg"
 // Mention the percentage here
 // As an example, I mentioned the percentage as 40
 progress(40, '.radial-container');
-</code></pre>
+```
 <p><strong><a href="http://jsfiddle.net/venkateshwar/wmytz6x3/14/">Working Fiddle</a></strong></p>
 
 <p data-height="268" data-theme-id="1592" data-slug-hash="GJGKvy" data-default-tab="result" data-user="Mr_Green" class='codepen'>See the Pen <a href='http://codepen.io/Mr_Green/pen/GJGKvy/'>GJGKvy</a> by venkateshwar (<a href='http://codepen.io/Mr_Green'>@Mr_Green</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

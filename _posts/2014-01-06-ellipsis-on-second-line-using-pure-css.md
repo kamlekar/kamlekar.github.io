@@ -5,6 +5,7 @@ date: 2014-01-06 10:17:57.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - css
 - ellipsis
 - line
@@ -12,7 +13,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>Guys while working to get ellipsis on second line in my project, I realized we can do this using just CSS!! </p>
@@ -20,13 +21,15 @@ header-img: "img/home-bg.jpg"
 The solution supports IE9+ and ofcourse all modern browsers.</p>
 <p><strong>CONS:</strong><br />
 - Looks misplaced for long words.</p>
-<pre>
-&lt;div class="ellipsis"&gt;
-    &lt;span&gt;...&lt;/span&gt;
+
+```css
+<div class="ellipsis">
+    <span>...</span>
     Hello this is Mr_Green from Stackoverflow. I love CSS. I live in CSS and I will never leave working on CSS even my work is on other technologies.
-&lt;/div&gt;
-</pre>
-<pre>
+</div>
+```
+
+```css
 div {
     height: 3em;
     line-height: 1.5em;
@@ -50,7 +53,8 @@ span {
     right: 0px;
     background-color: white;
 }
-</pre>
+```
+
 <p><strong>Explanation: </strong> </p>
 <p>Below are the points to remember: </p>
 <ul>

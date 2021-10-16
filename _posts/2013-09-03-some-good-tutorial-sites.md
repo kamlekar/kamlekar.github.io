@@ -5,6 +5,7 @@ date: 2013-09-03 11:05:03.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - good tutorial sites
 - new technology
 - some good sites
@@ -13,7 +14,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>If someone is new to any technology then everything looks dim to him/her. Many people don't know where to start. For those people I would like to suggest to go through following steps for understanding slowly. I am not saying that it must be strictly follow. These are the steps which I always follow when learning any new technology.</p>

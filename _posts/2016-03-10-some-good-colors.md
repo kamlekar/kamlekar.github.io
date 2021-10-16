@@ -6,6 +6,7 @@ date: 2016-03-10 07:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - css
 - color
 - good
@@ -13,7 +14,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

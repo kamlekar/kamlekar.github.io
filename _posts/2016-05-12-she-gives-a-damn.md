@@ -11,7 +11,7 @@ tags:
 status: draft
 type: post
 published: false
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

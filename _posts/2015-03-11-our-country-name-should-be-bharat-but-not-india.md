@@ -5,13 +5,14 @@ date: 2015-03-11 21:43:44.000000000 +05:30
 categories:
 - leisure
 tags:
+- posts
 - bharat
 - hindustan
 - india
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <p>We who ourselves call as "Indians" used to live in a country which had name "Bharat". "Bharat" was named after a great ancestral King.</p>

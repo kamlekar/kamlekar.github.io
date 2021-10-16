@@ -5,6 +5,7 @@ date: 2014-12-11 08:02:21.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - css
 - javascript
 - custom scroll
@@ -15,19 +16,19 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
 Slim scroll is a replacement of default scrollbar provided by browsers. This plugin lets you design the scroll-bar by using simple css properties. It is created using javascript and css.
 
-[Download](https://github.com/venkateshwar/slim-scroll/releases/latest)&nbsp;&nbsp;| &nbsp;[Github](https://github.com/venkateshwar/slim-scroll/)
+[Download](https://github.com/kamlekar/slim-scroll/releases/latest)&nbsp;&nbsp;| &nbsp;[Github](https://github.com/kamlekar/slim-scroll/)
 
 **Tested on**: IE9+, Chrome and Firefox.
 
-##[Demo](https://rawgit.com/venkateshwar/slim-scroll/master/index.html)
+#### [Demo](https://rawgit.com/kamlekar/slim-scroll/master/index.html)
 
-###How to use:
+#### How to use:
 - To make it work, include `slimscroll.js` (_plugin_) in `head` tag.
 - Apply height to the container in fixed units or percentage.
 - Just design the scrollbar as you want by applying css classes as explained below.
@@ -35,31 +36,29 @@ Slim scroll is a replacement of default scrollbar provided by browsers. This plu
 
 and then:
 
-#####Method 1 (_with no added styles_):
+##### Method 1 (_with no added styles_):
 
-    new slimScroll(Element);   // 'Element' is Javascript DOM object
+```javascript
+new slimScroll(Element);   // 'Element' is Javascript DOM object
+```
 
-#####Method 2 (_with added styles_):
+##### Method 2 (_with added styles_):
 
 or to add your own defined css styles:
 
-    new slimScroll(Element, {
-      'wrapperClass': '',
+```javascript
+new slimScroll(Element, {
+    'wrapperClass': '',
+    'scrollBarClass': '',
+    'scrollBarContainerClass': '',  
+    'scrollBarContainerSpecialClass': '',
+    'scrollBarMinHeight': '',
+    'scrollBarFixedHeight': '',
+    'keepFocus': true/false
+});
+```
 
-      'scrollBarClass': '',
-
-      'scrollBarContainerClass': '',  
-
-      'scrollBarContainerSpecialClass': '',
-
-      'scrollBarMinHeight': '',
-
-      'scrollBarFixedHeight': '',
-
-      'keepFocus': true/false
-    });
-
-###Explanation of above properties:
+### Explanation of above properties:
 
 - **wrapperClass** (*type - "string"*) : Mention wrapper class here.
 - **scrollBarClass** (*type - "string"*) : Mention scroll bar class here.
@@ -69,19 +68,21 @@ or to add your own defined css styles:
 - **scrollBarFixedHeight** (*type - "Integer"*) : Used to mention scroll bar fixed height (without pixel unit). This makes sure to show the scroll bar height fixed even when content inside the container is increased.
 - **keepFocus** (*type - "Boolean"*) : Used to focus the container.
 
-###To make this work on height resize:
+### To make this work on height resize:
 
-    var customScroll = new slimScroll();
-    window.onresize = customScroll.resetValues;  // pure javascript example.
+```javascript
+var customScroll = new slimScroll();
+window.onresize = customScroll.resetValues;  // pure javascript example.
+```
 
-###Note:
+### Note:
 
 - Usage of the above mentioned properties is optional or as per need.
 - Add [higher specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) css to override the custom styles which are being applied by the plugin.
 - Don't override the styles which are given highest specificity (`!important`) by the plugin (_those styles are necessary to make this scroll plugin work_).
 
 
-###How I got this thought:
+### How I got this thought:
 
 I got this thought, when I found solution to hide the default scrollbar (_using css_) which was the requirement for a post on [Stackoverflow](http://stackoverflow.com/a/16671476/1577396).
 

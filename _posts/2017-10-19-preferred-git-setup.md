@@ -6,13 +6,14 @@ date: 2017-10-19 07:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - wordpress
 - git
 - xampp
 status: publish
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
@@ -25,14 +26,18 @@ Though we change inside our theme i.e `wp-content/themes/{my-theme}`, other chan
 
 So, lets `git init` the `wp-content/` folder in CLI. 
 
-    $MyWordpress/wp-content > git init
-    $MyWordpress/wp-content > git remote add origin git@www.gitsetup.com:/my/setup.git
+```css
+$MyWordpress/wp-content > git init
+$MyWordpress/wp-content > git remote add origin git@www.gitsetup.com:/my/setup.git
+```
 
 Now, before committing the files inside `wp-content`, we need to make sure we aren't committing unnecessary files like "wordpress default themes" and "node_modules" folder (_if you are using npm packages to automate tasks_). Here is the `.gitignore` setup which I use:
 
-    themes/*
-    !themes/MyTheme/
-    themes/MyTheme/node_modules/
+```css
+themes/*
+!themes/MyTheme/
+themes/MyTheme/node_modules/
+```
 
 > Note: In the above setup, I initialized npm packages in my theme folder.
 
@@ -44,12 +49,13 @@ For consideration, the local server `dump.sql` file when imported on staging or 
 
 Since, I am trying to automate the deployment, I will use `REPLACE` SQL function inside a shell script which I will run whenever I need to deploy the latest code on live/staging server. So, the shell script which I run on staging/live server looks as shown below:
 
-    
-    git pull;
-    mysqladmin drop MyThemeDatabase --force;
-    mysqladmin create MyThemeDatabase;
-    mysql MyThemeDatabase < /path/to/project/wp-content/themes/mytheme/misc/dump.sql;
-    mysql MyThemeDatabase -e "UPDATE wp_options SET option_value = replace(option_value, 'http://localhost/mytheme', 'http://staging.mystagingurl.com') WHERE option_name = 'home' OR option_name = 'siteurl'; UPDATE wp_posts SET guid = replace(guid, 'http://localhost/mytheme','http://staging.mystagingurl.com'); UPDATE wp_posts SET post_content = replace(post_content, 'http://localhost/mytheme', 'http://staging.mystagingurl.com'); UPDATE wp_postmeta SET meta_value = replace(meta_value, 'http://localhost/mytheme', 'http://staging.mystagingurl.com'); UPDATE wp_posts SET post_excerpt = replace(post_excerpt, 'http://localhost/mytheme', 'http://staging.mystagingurl.com');";
+```css
+git pull;
+mysqladmin drop MyThemeDatabase --force;
+mysqladmin create MyThemeDatabase;
+mysql MyThemeDatabase < /path/to/project/wp-content/themes/mytheme/misc/dump.sql;
+mysql MyThemeDatabase -e "UPDATE wp_options SET option_value = replace(option_value, 'http://localhost/mytheme', 'http://staging.mystagingurl.com') WHERE option_name = 'home' OR option_name = 'siteurl'; UPDATE wp_posts SET guid = replace(guid, 'http://localhost/mytheme','http://staging.mystagingurl.com'); UPDATE wp_posts SET post_content = replace(post_content, 'http://localhost/mytheme', 'http://staging.mystagingurl.com'); UPDATE wp_postmeta SET meta_value = replace(meta_value, 'http://localhost/mytheme', 'http://staging.mystagingurl.com'); UPDATE wp_posts SET post_excerpt = replace(post_excerpt, 'http://localhost/mytheme', 'http://staging.mystagingurl.com');";
+```
     
 Explanation to above commands:
 

@@ -6,6 +6,7 @@ date: 2015-08-26 07:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - compile
 - precompile
 - template
@@ -17,7 +18,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
@@ -29,59 +30,67 @@ I found this awesome template engine, [Nunjucks][1], which lets me compile the H
 
 Check this one, [gulp-nunjucks-render](https://github.com/carlosl/gulp-nunjucks-render). By using this along with gulp, I am able to include section of `.html` files into other `.html` files. Here is the code (_assuming you installed nodejs and gulp_):
 
-	var gulp = require('gulp');
-	var nunjucksRender = require('gulp-nunjucks-render');
+```javascript
+var gulp = require('gulp');
+var nunjucksRender = require('gulp-nunjucks-render');
 
-	gulp.task('default', function () {
-	    nunjucksRender.nunjucks.configure(['templates/'], { watch: false });
-	    return gulp.src('templates/!(_)*.html')
-	        .pipe(nunjucksRender({
-	        	css_path: "../assets/css/",
-	        	js_path: "../assets/js/",
-	        	img_path: "../assets/images/"
-	        }))
-	        .pipe(gulp.dest('html'));
-	});
-	gulp.task('watch', function () {
-	    gulp.watch(['templates/*.html'], ['default']);
-	});
+gulp.task('default', function () {
+	nunjucksRender.nunjucks.configure(['templates/'], { watch: false });
+	return gulp.src('templates/!(_)*.html')
+		.pipe(nunjucksRender({
+			css_path: "../assets/css/",
+			js_path: "../assets/js/",
+			img_path: "../assets/images/"
+		}))
+		.pipe(gulp.dest('html'));
+});
+gulp.task('watch', function () {
+		gulp.watch(['templates/*.html'], ['default']);
+});
+```
 
 In the above code, I am keeping the HTML templates in `templates` folder and with the above gulp code, I am generating the new HTMLs in `html` folder. The above code will not generate the files which are prefixed with `_`. (_something similar to sass_)
 
 and later in command prompt:
 
-    gulp watch  // Watches the files for changes continuously --> OWNING :D
+```css
+gulp watch  // Watches the files for changes continuously --> OWNING :D
+```
 
 Here is an example:
 
-    <!-- // Index.html -->
-    <!-- SITE BUG: Please replace <percentage> with % -->
-	<!DOCTYPE html>
-	<html>
-		{<percentage> include _head.html <percentage>}
-		<body>
-			{<percentage> include _content.html <percentage>}
-            		{<percentage> include _footer.html <percentage>}
-		</body>
-	</html>
+```css
+<!-- // Index.html -->
+<!-- SITE BUG: Please replace <percentage> with % -->
+<!DOCTYPE html>
+<html>
+	{<percentage> include _head.html <percentage>}
+	<body>
+		{<percentage> include _content.html <percentage>}
+		{<percentage> include _footer.html <percentage>}
+	</body>
+</html>
+```
 
 Which renders to:
 
-	<!DOCTYPE html>
-	<html>
-	    <head>
-		    <title>Website title</title>
-		    <link rel="Stylesheet" href="../assets/jcss/main.css" type="text/css"/>
-	    </head>
-		<body>
-			<div class="page">
-				<!-- content here -->
-			</div>
-            <div class="footer">
-                <!-- footer content here -->
-            </div>
-		</body>
-	</html>
+```css
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Website title</title>
+		<link rel="Stylesheet" href="../assets/jcss/main.css" type="text/css"/>
+	</head>
+	<body>
+		<div class="page">
+			<!-- content here -->
+		</div>
+		<div class="footer">
+				<!-- footer content here -->
+		</div>
+	</body>
+</html>
+```
 
 ### Advantages:
 - No need of server support to compile the templates.

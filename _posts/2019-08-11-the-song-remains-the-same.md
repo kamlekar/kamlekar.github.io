@@ -6,11 +6,12 @@ date: 2019-08-11 11:59:44.000000000 +05:30
 categories:
 - awesome
 tags:
+- posts
 - thoughts
 status: published
 type: post
 published: true
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 

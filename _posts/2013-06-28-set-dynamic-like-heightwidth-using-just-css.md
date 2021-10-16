@@ -5,6 +5,7 @@ date: 2013-06-28 08:14:38.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - css
 - dynamic
 - height
@@ -14,7 +15,7 @@ tags:
 status: publish
 type: post
 published: true
-author:     "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 <div dir="ltr" style="text-align:left;">Many web developers need a design like having two div elements adjacent to each other and occupying the complete width of the parent element. Something like this:</p>
@@ -25,15 +26,17 @@ header-img: "img/home-bg.jpg"
 <p>Many developers in their career beginning stage thinks that this is not possible using just css. because the height of the second child element must be changed whenever the browser shrinks/expands. Though it would have been easy if both the child elements were in percentages.</p>
 <p>In conditions like this I have seen my colleagues were using javascript to change the width of the second child element dynamically. (well even I used to do the same)</p>
 <p>The fact is that this type of problem can be solved using just css. By using some magic properties like:</p>
-<p><span style="background-color:#666666;"><br />
+<p><span><br />
 </span></p>
-<div style="text-align:left;"><span style="background-color:#eeeeee;"><span style="font-family:'Courier New', Courier, monospace;">float, position, margin and overflow.</span></span></div>
+<div style="text-align:left;"><span><code style="font-family:'Courier New', Courier, monospace;">float, position, margin and overflow.</code></span></div>
 <p><span style="font-size:small;"><i><br />
 </i></span><br />
 <span style="font-size:small;"><i>I call the above properties as "magic properties" because they can do miracles (I think so) which can lead to good or worst(if not used correctly) results.</i></span></p>
 <p><b>Solution</b>:</p>
-<p>The above problem can be solved by applying positioning to the elements. In this solution, we will not mention any width to the second child element. Instead, we will apply <span style="background-color:#eeeeee;">position: absolute<span style="background-color:white;"> to it</span></span>. This will move the second child element out of the parent element box. This happens because a element with absolute positioning does layout with respect to the parent element or ancestor element which has positioning applied.  if it can't find any parent element with positioning then it will do layout with respect to <span style="background-color:#eeeeee;">body</span> element. So, to keep the second child element inside the parent element we will assign <span style="background-color:#eeeeee;">position: relative;</span>  to the parent element. Now as we know the first child element is of fixed width let just say it as <span style="background-color:#eeeeee;">width: x px</span>. we can assign <span style="background-color:#eeeeee;">left </span>and <span style="background-color:#eeeeee;">right</span> css properties to the second child element based on the fixed width of the first child element and also <span style="background-color:#eeeeee;">top</span> css property to pin the second child element to the parent element. So, the complete css would be something like this:</p>
-<pre>.parentDiv {
+<p>The above problem can be solved by applying positioning to the elements. In this solution, we will not mention any width to the second child element. Instead, we will apply <code>position: absolute</code> to it. This will move the second child element out of the parent element box. This happens because a element with absolute positioning does layout with respect to the parent element or ancestor element which has positioning applied.  if it can't find any parent element with positioning then it will do layout with respect to <code>body</code> element. So, to keep the second child element inside the parent element we will assign <code>position: relative;</code>  to the parent element. Now as we know the first child element is of fixed width let just say it as <code>width: x px</code>. we can assign <code>left</code> and <code>right</code> css properties to the second child element based on the fixed width of the first child element and also <code>top</code> css property to pin the second child element to the parent element. So, the complete css would be something like this:</p>
+
+```css
+.parentDiv {
     position: relative;    /* wrap the positioned child elements inside it */
     height: 200px;
 }
@@ -47,7 +50,9 @@ header-img: "img/home-bg.jpg"
     left : 100px;  /* based on the fixed width of the first child element */
     right: 0px;
     height : 100%;
-}</pre>
+}
+```
+
 <p>Here is the <a href="http://jsfiddle.net/venkateshwar/nkBpB/1/" target="_blank">Working Fiddle</a>.</p>
-<p>This can also be solved using <span style="background-color:#eeeeee;">float: left</span> and <span style="background-color:#eeeeee;">margin-left</span> instead of positioning. I never tried that though.</p>
+<p>This can also be solved using <span>float: left</span> and <span>margin-left</span> instead of positioning. I never tried that though.</p>
 </div>

@@ -6,6 +6,7 @@ date: 2017-11-27 07:59:44.000000000 +05:30
 categories:
 - technical
 tags:
+- posts
 - css
 - svg
 - circle
@@ -14,11 +15,11 @@ tags:
 - chart
 - stroke
 - dasharray
-status: publish
+status: draft
 type: post
 mathML: true
 published: false
-author: "Venkateshwar"
+author: Venkateshwar
 header-img: "img/home-bg.jpg"
 ---
 
@@ -49,10 +50,11 @@ header-img: "img/home-bg.jpg"
 
 <p>Now, if I have the following <code>circle</code>:</p>
 
-<pre><code>&lt;svg&gt;
-    &lt;circle cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-&lt;/svg&gt;
-</code></pre>
+```css
+<svg>
+    <circle cx="50" cy="50" r="50"></circle>
+</svg>
+```
 
 <p>As the radius for circle is <code>50</code> and assumed applied percentage is <script type="math/tex" id="MathJax-Element-32">60\%</script>, the <code>stroke-dasharray</code> would look like:</p>
 
@@ -62,26 +64,29 @@ header-img: "img/home-bg.jpg"
 
 <p>As <code>stroke-dasharray</code> is a presentational attribute, we can apply the above using css:</p>
 
-<pre><code>circle {
+```css
+circle {
     stroke-dasharray: calc(2 * 22 / 7 * 50), calc(2 * 22 / 7 * 50 * 60 / 100);
     stroke-width: 10;
 }
-</code></pre>
+```
 
 <p>The circumference formula in above calculation needn’t to be executed on runtime. So, I will switch over to SCSS to precompile the calculation and make the code more readable (<em>this step is not redundant but still who doesn’t love SCSS ? </em>). </p>
 
-<pre><code>circle {
+```css
+circle {
     $pi: 22/7;
     $radius: 50;
     $circumference: 2 * $pi * radius;
     stroke-dasharray: calc(#{$circumference} * 60 / 100), #{$circumference};
     stroke-width: 10;
 }
-</code></pre>
+```
 
 <p>Again since the percentage value is dynamic, it is better to handle the <code>stroke-dasharray</code> value using JavaScript (<em>even the circumference calculations</em>).  But if you are fine with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS Custom Variables</a> then you can do as follows: </p>
 
-<pre><code>:root {
+```css
+:root {
     --percent: 0;  // default value
 }
 
@@ -92,15 +97,16 @@ circle {
     stroke-dasharray: calc(#{$circumference} * var(--percent), #{$circumference};
     stroke-width: 10;
 }
-</code></pre>
+```
 
 <p>The above explanation just covers the fundamentals to create a single pie in donut chart. Now to create another pie inside the donut chart, we need to create another circle inside SVG.</p>
 
-<pre><code>&lt;svg&gt;
-    &lt;circle class="pie-one" cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-    &lt;circle class="pie-two" cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-&lt;/svg&gt;
-</code></pre>
+```css
+<svg>
+    <circle class="pie-one" cx="50" cy="50" r="50"></circle>
+    <circle class="pie-two" cx="50" cy="50" r="50"></circle>
+</svg>
+```
 
 <p>If we say the first pie holds <script type="math/tex" id="MathJax-Element-19">60\%</script> and the second <script type="math/tex" id="MathJax-Element-20">20\%</script>, then second pie would start from on top of the first pie's stroke when it is rendered because the circle positions are same, hence the stroke color will be overlapping one on another. To make the second pie visible, we need to rotate it by <script type="math/tex" id="MathJax-Element-21">60\%</script>  (i.e first pie’s percentage).  i.e</p>
 
@@ -110,18 +116,19 @@ circle {
 
 <p>Well if there is another pie, we need to rotate it by <code>first pie's percentage + second pie's percentage</code>. Since all pie diagrams start with a <script type="math/tex" id="MathJax-Element-29">90^\circ</script> off, it is better to rotate all these <code>circles</code> by <script type="math/tex" id="MathJax-Element-30">-90^\circ</script> or <script type="math/tex" id="2">270^\circ</script> maybe through a parent element i.e a <code>group</code> tag.</p>
 
-<pre><code>&lt;svg&gt;
-    &lt;g class="circles"&gt;
-        &lt;circle class="pie-one" cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-        &lt;circle class="pie-two" cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-        &lt;circle class="pie-three" cx="50" cy="50" r="50"&gt;&lt;/circle&gt;
-    &lt;/g&gt;
-&lt;/svg&gt;
+```css
+<svg>
+    <g class="circles">
+        <circle class="pie-one" cx="50" cy="50" r="50"></circle>
+        <circle class="pie-two" cx="50" cy="50" r="50"></circle>
+        <circle class="pie-three" cx="50" cy="50" r="50"></circle>
+    </g>
+</svg>
 
 .circles {
     transform: rotate(-90deg);
 }
-</code></pre>
+```
 
 <p>As in the real scenario, the circles could be dynamic, it is better to generate the circles through JavaScript and pass the percentage values through an object. I got my donut chart by following the above steps, hope it will be helpful to you as well.</p>
 
